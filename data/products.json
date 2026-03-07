@@ -1,0 +1,483 @@
+{
+  "categories": [
+    {
+      "id": "refrigerators",
+      "name": "냉장고",
+      "name_en": "Refrigerators",
+      "products": [
+        {
+          "id": "ref-001",
+          "name": "디오스 오브제 4도어 냉장고 870L",
+          "model": "",
+          "monthly_price": 28800,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-001.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/VhKENJTya1.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ref-002",
+          "name": "AI 오브제컬렉션 양문형 냉장고 832L",
+          "model": "",
+          "monthly_price": 29900,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-002.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/oM6EDd1RUI.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ref-003",
+          "name": "AI 오브제컬렉션 양문형 냉장고 661L 프라임실버",
+          "model": "",
+          "monthly_price": 23900,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-003.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/lItexKEXA9.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ref-004",
+          "name": "오브제컬렉션 2도어 일반냉장고 612L",
+          "model": "D604MEE52",
+          "monthly_price": 16900,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-004.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/zXXYAHGT0m.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ref-005",
+          "name": "모던엣지 냉장고 462L 프라임실버",
+          "model": "M451PS53",
+          "monthly_price": 10900,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-005.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/A46mMTaMT8.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ref-006",
+          "name": "오브제컬렉션 일반냉장고 335L",
+          "model": "D332MBE34",
+          "monthly_price": 900,
+          "contract_months": 60,
+          "image": "images/refrigerators/ref-006.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/5dvRVH0CW2.jpg",
+          "source": "LG헬로렌탈"
+        }
+      ]
+    },
+    {
+      "id": "air-conditioners",
+      "name": "에어컨",
+      "name_en": "Air Conditioners",
+      "products": [
+        {
+          "id": "ac-001",
+          "name": "AI 무풍클래식 에어컨 56.9+18.7㎡[17평+6평]",
+          "model": "",
+          "monthly_price": 49900,
+          "contract_months": 60,
+          "image": "images/air-conditioners/ac-001.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/t9TFeh73bx.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ac-002",
+          "name": "AI Q9000 에어컨 56.9+18.7㎡[17평+6평]",
+          "model": "",
+          "monthly_price": 36000,
+          "contract_months": 60,
+          "image": "images/air-conditioners/ac-002.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/XS3p6cEMbQ.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ac-003",
+          "name": "AI 무풍콤보 벽걸이 에어컨 48.8㎡[15평]",
+          "model": "",
+          "monthly_price": 16500,
+          "contract_months": 60,
+          "image": "images/air-conditioners/ac-003.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/9kUVenW4Fx.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ac-004",
+          "name": "휘센 벽걸이에어컨 22.8㎡[7평]",
+          "model": "SQ07FA3WBS",
+          "monthly_price": 7900,
+          "contract_months": 60,
+          "image": "images/air-conditioners/ac-004.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/PVJNDtjsZQ.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ac-005",
+          "name": "휘센 벽걸이에어컨 18.7㎡[6평]",
+          "model": "",
+          "monthly_price": null,
+          "monthly_price_note": "이벤트가",
+          "contract_months": 60,
+          "image": "images/air-conditioners/ac-005.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/mDZ3Jyz1Q2.png",
+          "source": "LG헬로렌탈"
+        }
+      ]
+    },
+    {
+      "id": "air-purifiers",
+      "name": "공기청정기",
+      "name_en": "Air Purifiers",
+      "products": [
+        {
+          "id": "ap-001",
+          "name": "오브제컬렉션 AI+ 360˚ 공기청정기 114㎡[35평]",
+          "model": "",
+          "monthly_price": 59900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-001.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/gyUAmYfKks.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-002",
+          "name": "퓨리케어 AI 360˚ 공기청정기 플러스 100㎡[30평]",
+          "model": "AS305DWWA",
+          "monthly_price": 30900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-002.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/GNl8AV7AGB.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-003",
+          "name": "퓨리케어 360˚ 공기청정기 플러스 100㎡[30평]",
+          "model": "",
+          "monthly_price": 25900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-003.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/MpSb5GxZFu.png",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-004",
+          "name": "퓨리케어 AI 360˚ 공기청정기 플러스 61.2㎡[19평]",
+          "model": "AS195DWWA",
+          "monthly_price": 23900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-004.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/9htyWzbDJE.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-005",
+          "name": "퓨리케어 360˚ 공기청정기 플러스 61.2㎡[19평]",
+          "model": "",
+          "monthly_price": 22700,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-005.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/yQnnWvgCtC.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-006",
+          "name": "퓨리케어 에어로부스터 공기청정기 48.2㎡[15평]",
+          "model": "",
+          "monthly_price": 21900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-006.jpg",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/XbxHdgjBKg.jpg",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "ap-007",
+          "name": "퓨리케어 360˚ 공기청정기 Hit 50㎡[15평]",
+          "model": "",
+          "monthly_price": 11900,
+          "contract_months": 60,
+          "image": "images/air-purifiers/ap-007.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/wTvYqljzMg.png",
+          "source": "LG헬로렌탈"
+        }
+      ]
+    },
+    {
+      "id": "tvs",
+      "name": "TV",
+      "name_en": "TVs",
+      "products": [
+        {
+          "id": "tv-001",
+          "name": "올레드 에보 77인치 G5",
+          "model": "OLED77G5",
+          "monthly_price": 126900,
+          "contract_months": 60,
+          "image": "images/tvs/tv-001.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "tv-002",
+          "name": "올레드 TV 65인치 B5",
+          "model": "OLED65B5",
+          "monthly_price": 58900,
+          "contract_months": 60,
+          "image": "images/tvs/tv-002.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "tv-003",
+          "name": "울트라 HD 스마트 TV 75인치",
+          "model": "",
+          "monthly_price": 35900,
+          "contract_months": 60,
+          "image": "images/tvs/tv-003.jpg",
+          "image_source": "",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "tv-004",
+          "name": "울트라 HD 스마트 TV 65인치",
+          "model": "",
+          "monthly_price": 32900,
+          "contract_months": 60,
+          "image": "images/tvs/tv-004.jpg",
+          "image_source": "",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "tv-005",
+          "name": "올레드 TV 163cm(65인치)",
+          "model": "",
+          "monthly_price": 59200,
+          "contract_months": 60,
+          "image": "images/tvs/tv-005.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        }
+      ]
+    },
+    {
+      "id": "washing-machines",
+      "name": "세탁기/워시타워",
+      "name_en": "Washing Machines",
+      "products": [
+        {
+          "id": "wm-001",
+          "name": "트롬 AI 오브제 워시타워 세탁25+건조25kg",
+          "model": "WA2525IIHF",
+          "monthly_price": 100700,
+          "contract_months": 60,
+          "image": "images/washing-machines/wm-001.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "wm-002",
+          "name": "트롬 오브제 워시타워 세탁25+건조22kg",
+          "model": "WL22MGZU",
+          "monthly_price": null,
+          "monthly_price_note": "구독 가능",
+          "contract_months": 60,
+          "image": "images/washing-machines/wm-002.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "wm-003",
+          "name": "트롬 AI 세탁기 25kg",
+          "model": "FX25TF",
+          "monthly_price": 43900,
+          "contract_months": 60,
+          "image": "images/washing-machines/wm-003.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "wm-004",
+          "name": "트롬 오브제 드럼세탁기 25kg",
+          "model": "FX25GSGS",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/washing-machines/wm-004.jpg",
+          "image_source": "",
+          "source": "LG케어솔루션"
+        },
+        {
+          "id": "wm-005",
+          "name": "트롬 건조기 10kg",
+          "model": "",
+          "monthly_price": 21900,
+          "contract_months": 60,
+          "image": "images/washing-machines/wm-005.jpg",
+          "image_source": "",
+          "source": "LG헬로렌탈"
+        }
+      ]
+    },
+    {
+      "id": "vacuums",
+      "name": "청소기",
+      "name_en": "Vacuums",
+      "products": [
+        {
+          "id": "vc-001",
+          "name": "코드제로 오브제컬렉션 A9S 무선청소기",
+          "model": "AX9604WE",
+          "monthly_price": 29000,
+          "contract_months": 60,
+          "image": "images/vacuums/vc-001.jpg",
+          "image_source": "",
+          "source": "LG헬로렌탈"
+        },
+        {
+          "id": "vc-002",
+          "name": "코드제로 A9S 무선청소기",
+          "model": "A9700IK",
+          "monthly_price": 25000,
+          "contract_months": 60,
+          "image": "images/vacuums/vc-002.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "vc-003",
+          "name": "코드제로 A9 Air",
+          "model": "AS9000WR",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/vacuums/vc-003.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "vc-004",
+          "name": "로보킹 AI 로봇청소기",
+          "model": "",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/vacuums/vc-004.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "vc-005",
+          "name": "코드제로 A9 오브제컬렉션",
+          "model": "AO9571WKT",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/vacuums/vc-005.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        }
+      ]
+    },
+    {
+      "id": "stylers",
+      "name": "스타일러",
+      "name_en": "Stylers",
+      "products": [
+        {
+          "id": "st-001",
+          "name": "트롬 스타일러 오브제 5벌",
+          "model": "SC5GMR52",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/stylers/st-001.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "st-002",
+          "name": "트롬 스타일러 오브제 3벌",
+          "model": "S3GHM",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈/72개월",
+          "contract_months": 72,
+          "image": "images/stylers/st-002.jpg",
+          "image_source": "",
+          "source": "LG케어솔루션"
+        },
+        {
+          "id": "st-003",
+          "name": "트롬 스타일러 슬림 3벌",
+          "model": "S3BF",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/stylers/st-003.jpg",
+          "image_source": "",
+          "source": "LG케어솔루션"
+        },
+        {
+          "id": "st-004",
+          "name": "트롬 스타일러 고급형 화이트",
+          "model": "S3WF",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/stylers/st-004.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        }
+      ]
+    },
+    {
+      "id": "notebooks",
+      "name": "노트북",
+      "name_en": "Notebooks",
+      "products": [
+        {
+          "id": "nb-001",
+          "name": "LG 그램 Pro AI (최신형)",
+          "model": "",
+          "monthly_price": 68800,
+          "contract_months": 60,
+          "image": "images/notebooks/nb-001.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "nb-002",
+          "name": "LG 그램 17인치",
+          "model": "",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/notebooks/nb-002.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "nb-003",
+          "name": "LG 그램 14인치",
+          "model": "",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/notebooks/nb-003.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        },
+        {
+          "id": "nb-004",
+          "name": "LG 그램 16인치 2-in-1",
+          "model": "",
+          "monthly_price": null,
+          "monthly_price_note": "렌탈 가능",
+          "contract_months": 60,
+          "image": "images/notebooks/nb-004.jpg",
+          "image_source": "",
+          "source": "LG전자"
+        }
+      ]
+    }
+  ]
+}
