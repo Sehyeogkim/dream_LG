@@ -56,14 +56,10 @@ body {
   gap: 12px;
 }
 
-.logo-lg {
-  background: var(--lg-red);
-  color: var(--white);
-  font-size: 22px;
-  font-weight: 900;
-  padding: 6px 12px;
-  border-radius: 6px;
-  letter-spacing: 1px;
+.logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -86,7 +82,7 @@ body {
 .header-slogan {
   flex: 1;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--gray-700);
   letter-spacing: -0.01em;
@@ -94,8 +90,6 @@ body {
 
 .header-slogan span {
   display: inline-block;
-  border-left: 3px solid var(--lg-red);
-  padding-left: 10px;
 }
 
 .header-contact {
