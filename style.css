@@ -1,0 +1,377 @@
+/* ===== 기본 리셋 ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --lg-red: #C8132A;
+  --lg-red-dark: #a50f22;
+  --lg-red-light: #f5e6e8;
+  --white: #ffffff;
+  --gray-50: #f9f9f9;
+  --gray-100: #f0f0f0;
+  --gray-200: #e0e0e0;
+  --gray-500: #9e9e9e;
+  --gray-700: #555555;
+  --gray-900: #1a1a1a;
+  --sidebar-width: 220px;
+  --header-height: 70px;
+}
+
+body {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  background: var(--gray-50);
+  color: var(--gray-900);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== 헤더 ===== */
+.site-header {
+  background: var(--white);
+  border-bottom: 3px solid var(--lg-red);
+  height: var(--header-height);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-lg {
+  background: var(--lg-red);
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 900;
+  padding: 6px 12px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.company-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.company-sub {
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--gray-700);
+}
+
+.header-contact .phone {
+  color: var(--lg-red);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-contact .phone:hover {
+  text-decoration: underline;
+}
+
+/* ===== 레이아웃 ===== */
+.layout {
+  display: flex;
+  flex: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 24px 24px;
+  gap: 24px;
+}
+
+/* ===== 사이드바 ===== */
+.sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  padding: 0 4px;
+}
+
+.category-list {
+  list-style: none;
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.category-item {
+  padding: 13px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  color: var(--gray-700);
+  font-weight: 500;
+}
+
+.category-item + .category-item {
+  border-top: 1px solid var(--gray-100);
+}
+
+.category-item:hover {
+  background: var(--lg-red-light);
+  color: var(--lg-red);
+}
+
+.category-item.active {
+  background: var(--lg-red-light);
+  border-left-color: var(--lg-red);
+  color: var(--lg-red);
+  font-weight: 700;
+}
+
+/* ===== 메인 콘텐츠 ===== */
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.content-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.product-count {
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+/* ===== 제품 그리드 ===== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* ===== 제품 카드 ===== */
+.product-card {
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.product-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  background: var(--gray-100);
+  display: block;
+}
+
+.product-info {
+  padding: 14px 16px 18px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.product-category-tag {
+  font-size: 11px;
+  color: var(--lg-red);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-900);
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.product-desc {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.product-price-wrap {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--gray-100);
+}
+
+.product-price-label {
+  font-size: 11px;
+  color: var(--gray-500);
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--lg-red);
+}
+
+.product-price-unit {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--gray-500);
+}
+
+/* 문의 버튼 */
+.product-inquiry {
+  display: block;
+  margin-top: 10px;
+  padding: 9px;
+  background: var(--lg-red);
+  color: var(--white);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: background 0.15s;
+}
+
+.product-inquiry:hover {
+  background: var(--lg-red-dark);
+}
+
+/* ===== 빈 상태 ===== */
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--gray-500);
+}
+
+.empty-state p {
+  font-size: 16px;
+}
+
+/* ===== 푸터 ===== */
+.site-footer {
+  background: var(--gray-900);
+  color: var(--gray-500);
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: auto;
+}
+
+/* ===== 반응형 ===== */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+
+  .category-item {
+    border-left: none !important;
+    border-bottom: 3px solid transparent;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .category-item + .category-item {
+    border-top: none;
+    border-left: 1px solid var(--gray-100) !important;
+    border-left-width: 1px !important;
+  }
+
+  .category-item.active {
+    border-left-color: transparent !important;
+    border-bottom-color: var(--lg-red);
+  }
+
+  .sidebar-title {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-contact span {
+    display: none;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .category-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
