@@ -214,7 +214,7 @@
           "monthly_price": 126900,
           "contract_months": 60,
           "image": "images/tvs/tv-001.jpg",
-          "image_source": "",
+          "image_source": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/0112d156-f412-4ff1-8978-9b3fb269f09b/TV_OLED77G5WUA_bright-room-ready_gallery_04_3000x3000",
           "source": "LG전자"
         },
         {
@@ -224,7 +224,7 @@
           "monthly_price": 58900,
           "contract_months": 60,
           "image": "images/tvs/tv-002.jpg",
-          "image_source": "",
+          "image_source": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/0b09ba26-d9a3-4245-bbce-0c328e2482da/TVs-OLED65B5PUA-gallery-13_3000x3000",
           "source": "LG전자"
         },
         {
@@ -233,8 +233,8 @@
           "model": "",
           "monthly_price": 35900,
           "contract_months": 60,
-          "image": "images/tvs/tv-003.jpg",
-          "image_source": "",
+          "image": "images/tvs/tv-003.png",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/EL9AkwmPOV.png",
           "source": "LG헬로렌탈"
         },
         {
@@ -244,7 +244,7 @@
           "monthly_price": 32900,
           "contract_months": 60,
           "image": "images/tvs/tv-004.jpg",
-          "image_source": "",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/0H6Kxs4jWK.jpg",
           "source": "LG헬로렌탈"
         },
         {
@@ -254,7 +254,7 @@
           "monthly_price": 59200,
           "contract_months": 60,
           "image": "images/tvs/tv-005.jpg",
-          "image_source": "",
+          "image_source": "https://www.lge.co.kr/kr/images/tvs/md10319930/gallery/medium01.jpg",
           "source": "LG전자"
         }
       ]
@@ -271,7 +271,7 @@
           "monthly_price": 100700,
           "contract_months": 60,
           "image": "images/washing-machines/wm-001.jpg",
-          "image_source": "",
+          "image_source": "https://www.lge.co.kr/kr/images/wash-tower/md10575828/gallery/medium01.jpg",
           "source": "LG전자"
         },
         {
@@ -282,7 +282,7 @@
           "monthly_price_note": "구독 가능",
           "contract_months": 60,
           "image": "images/washing-machines/wm-002.jpg",
-          "image_source": "",
+          "image_source": "https://www.lge.co.kr/kr/images/wash-tower/md10283859/gallery/medium01.jpg",
           "source": "LG전자"
         },
         {
@@ -292,7 +292,7 @@
           "monthly_price": 43900,
           "contract_months": 60,
           "image": "images/washing-machines/wm-003.jpg",
-          "image_source": "",
+          "image_source": "https://www.lge.co.kr/kr/images/washing-machines/md10597887/gallery/medium01.jpg",
           "source": "LG전자"
         },
         {
@@ -303,8 +303,8 @@
           "monthly_price_note": "렌탈 가능",
           "contract_months": 60,
           "image": "images/washing-machines/wm-004.jpg",
-          "image_source": "",
-          "source": "LG케어솔루션"
+          "image_source": "https://www.lge.co.kr/kr/images/washing-machines/md09215826/gallery/medium01.jpg",
+          "source": "LG전자"
         },
         {
           "id": "wm-005",
@@ -313,7 +313,7 @@
           "monthly_price": 21900,
           "contract_months": 60,
           "image": "images/washing-machines/wm-005.jpg",
-          "image_source": "",
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/GeSADAPtHp.jpg",
           "source": "LG헬로렌탈"
         }
       ]
@@ -330,8 +330,8 @@
           "monthly_price": 29000,
           "contract_months": 60,
           "image": "images/vacuums/vc-001.jpg",
-          "image_source": "",
-          "source": "LG헬로렌탈"
+          "image_source": "https://static.lge.co.kr/kr/images/vacuum-cleaners/md09946853/md09946853-350x350.jpg",
+          "source": "LG전자"
         },
         {
           "id": "vc-002",
@@ -340,30 +340,28 @@
           "monthly_price": 25000,
           "contract_months": 60,
           "image": "images/vacuums/vc-002.jpg",
-          "image_source": "",
+          "image_source": "https://static.lge.co.kr/kr/images/vacuum-cleaners/md08044996/md08044996-350x350.jpg",
           "source": "LG전자"
         },
         {
           "id": "vc-003",
           "name": "코드제로 A9 Air",
           "model": "AS9000WR",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
+          "monthly_price": 14900,
           "contract_months": 60,
           "image": "images/vacuums/vc-003.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://static.lge.co.kr/kr/images/vacuum-cleaners/md10283871/md10283871-350x350.jpg",
+          "source": "LG헬로렌탈"
         },
         {
           "id": "vc-004",
           "name": "로보킹 AI 로봇청소기",
-          "model": "",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
+          "model": "B95AWBH",
+          "monthly_price": 50900,
           "contract_months": 60,
           "image": "images/vacuums/vc-004.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://static.lge.co.kr/kr/images/vacuum-cleaners/md10436831/md10436831-350x350.jpg",
+          "source": "LG헬로렌탈"
         },
         {
           "id": "vc-005",
@@ -373,7 +371,7 @@
           "monthly_price_note": "렌탈 가능",
           "contract_months": 60,
           "image": "images/vacuums/vc-005.jpg",
-          "image_source": "",
+          "image_source": "https://static.lge.co.kr/kr/images/vacuum-cleaners/md09201826/md09201826-350x350.jpg",
           "source": "LG전자"
         }
       ]
@@ -387,33 +385,30 @@
           "id": "st-001",
           "name": "트롬 스타일러 오브제 5벌",
           "model": "SC5GMR52",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
+          "monthly_price": 34900,
           "contract_months": 60,
           "image": "images/stylers/st-001.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://rentalcdn.lghellovision.net/uploads/product/cdb8PhxGMd.png",
+          "source": "LG헬로렌탈"
         },
         {
           "id": "st-002",
           "name": "트롬 스타일러 오브제 3벌",
           "model": "S3GHM",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈/72개월",
+          "monthly_price": 23900,
           "contract_months": 72,
           "image": "images/stylers/st-002.jpg",
-          "image_source": "",
+          "image_source": "https://rentalfriend.co.kr/web/product/medium/202503/3be12785394b3b15a6bc66d648bbeb0a.png",
           "source": "LG케어솔루션"
         },
         {
           "id": "st-003",
           "name": "트롬 스타일러 슬림 3벌",
           "model": "S3BF",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
+          "monthly_price": 26900,
           "contract_months": 60,
           "image": "images/stylers/st-003.jpg",
-          "image_source": "",
+          "image_source": "https://rentalfriend.co.kr/web/product/medium/202503/13b6a7c4dc1320bf38da620572e0c3b3.png",
           "source": "LG케어솔루션"
         },
         {
@@ -421,10 +416,10 @@
           "name": "트롬 스타일러 고급형 화이트",
           "model": "S3WF",
           "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
+          "monthly_price_note": "문의",
           "contract_months": 60,
           "image": "images/stylers/st-004.jpg",
-          "image_source": "",
+          "image_source": "https://img.danawa.com/prod_img/500000/684/597/img/4597684_1.jpg",
           "source": "LG전자"
         }
       ]
@@ -436,46 +431,43 @@
       "products": [
         {
           "id": "nb-001",
-          "name": "LG 그램 Pro AI (최신형)",
-          "model": "",
-          "monthly_price": 68800,
-          "contract_months": 60,
+          "name": "LG 그램 Pro AI 16인치",
+          "model": "16Z90TP-GA5CK",
+          "monthly_price": 61600,
+          "contract_months": 48,
           "image": "images/notebooks/nb-001.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://www.lge.co.kr/kr/images/notebook/md10493826/gallery/medium01.jpg",
+          "source": "LG케어솔루션"
         },
         {
           "id": "nb-002",
-          "name": "LG 그램 17인치",
-          "model": "",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
-          "contract_months": 60,
+          "name": "LG 그램 Pro AI 17인치",
+          "model": "17Z90TR-EA5HK",
+          "monthly_price": 121600,
+          "contract_months": 48,
           "image": "images/notebooks/nb-002.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://www.lge.co.kr/kr/images/notebook/md10651827/gallery/medium01.jpg",
+          "source": "LG케어솔루션"
         },
         {
           "id": "nb-003",
-          "name": "LG 그램 14인치",
-          "model": "",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
-          "contract_months": 60,
+          "name": "LG 그램 AI 14인치",
+          "model": "14Z90T-GA5HK",
+          "monthly_price": 59800,
+          "contract_months": 48,
           "image": "images/notebooks/nb-003.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://www.lge.co.kr/kr/images/notebook/md10521845/gallery/medium01.jpg",
+          "source": "LG케어솔루션"
         },
         {
           "id": "nb-004",
-          "name": "LG 그램 16인치 2-in-1",
-          "model": "",
-          "monthly_price": null,
-          "monthly_price_note": "렌탈 가능",
-          "contract_months": 60,
+          "name": "LG 그램 Pro 360 AI 16인치 2-in-1",
+          "model": "16T90TP-GA5CK",
+          "monthly_price": 82000,
+          "contract_months": 48,
           "image": "images/notebooks/nb-004.jpg",
-          "image_source": "",
-          "source": "LG전자"
+          "image_source": "https://www.lge.co.kr/kr/images/notebook/md10521827/gallery/medium01.jpg",
+          "source": "LG케어솔루션"
         }
       ]
     }
