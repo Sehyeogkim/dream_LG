@@ -83,6 +83,21 @@ body {
   color: var(--gray-500);
 }
 
+.header-slogan {
+  flex: 1;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gray-700);
+  letter-spacing: -0.01em;
+}
+
+.header-slogan span {
+  display: inline-block;
+  border-left: 3px solid var(--lg-red);
+  padding-left: 10px;
+}
+
 .header-contact {
   display: flex;
   align-items: center;
@@ -362,6 +377,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  .header-slogan {
+    display: none;
+  }
+
   .header-contact span {
     display: none;
   }
