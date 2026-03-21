@@ -1,7 +1,6 @@
-// ─── EmailJS 설정 (아래 값들을 교체하세요) ───
-const EMAILJS_PUBLIC_KEY = '4Up8VbSgiQ5b5E4lr';
-const EMAILJS_SERVICE_ID = 'service_14qzhtl';
-const EMAILJS_TEMPLATE_ID = 'template_rpv4rxq';
+// ─── Google Apps Script 설정 ───
+// Google Apps Script 웹앱 배포 후 아래 URL을 교체하세요
+const GAS_WEBAPP_URL = 'YOUR_GAS_WEBAPP_URL';
 
 let allProducts = [];
 let currentCategory = '전체';
@@ -150,11 +149,6 @@ async function init() {
       '<div class="empty-state"><p>상품 데이터를 불러오는 중 오류가 발생했습니다.</p></div>';
   }
 
-  // EmailJS 초기화
-  if (typeof emailjs !== 'undefined') {
-    emailjs.init(EMAILJS_PUBLIC_KEY);
-  }
-
   // 모달 이벤트
   document.getElementById('modalClose').addEventListener('click', closeModal);
   document.getElementById('modalOverlay').addEventListener('click', function(e) {
@@ -181,21 +175,29 @@ async function init() {
     const data = {};
     formData.forEach((value, key) => { data[key] = value; });
 
-    if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
-      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, data)
-        .then(function() {
-          document.getElementById('modal-form-section').style.display = 'none';
-          document.getElementById('modal-success-section').style.display = 'block';
+    if (GAS_WEBAPP_URL !== 'YOUR_GAS_WEBAPP_URL') {
+      fetch(GAS_WEBAPP_URL, {
+        method: 'POST',
+        body: JSON.stringify(data),
+      })
+        .then(function(res) { return res.json(); })
+        .then(function(result) {
+          if (result.status === 'success') {
+            document.getElementById('modal-form-section').style.display = 'none';
+            document.getElementById('modal-success-section').style.display = 'block';
+          } else {
+            throw new Error(result.message || '전송 실패');
+          }
         })
         .catch(function(error) {
           alert('전송에 실패했습니다. 전화(010-0000-0000)로 문의해주세요.');
-          console.error('EmailJS Error:', error);
+          console.error('GAS Error:', error);
           submitBtn.disabled = false;
           submitBtn.textContent = '견적문의 보내기';
         });
     } else {
-      // EmailJS 미설정 시 성공 화면만 표시 (개발/테스트용)
-      console.warn('EmailJS가 설정되지 않았습니다. 폼 데이터:', data);
+      // GAS 미설정 시 성공 화면만 표시 (개발/테스트용)
+      console.warn('Google Apps Script URL이 설정되지 않았습니다. 폼 데이터:', data);
       document.getElementById('modal-form-section').style.display = 'none';
       document.getElementById('modal-success-section').style.display = 'block';
     }
