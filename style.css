@@ -401,3 +401,268 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== 견적문의 모달 ===== */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+  overflow-y: auto;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-container {
+  background: var(--white);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 560px;
+  padding: 32px 28px;
+  position: relative;
+  animation: modalSlideIn 0.25s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: var(--gray-500);
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.modal-close:hover {
+  background: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.modal-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 6px;
+}
+
+.modal-desc {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.modal-info-box {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+}
+
+.modal-info-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--gray-700);
+  margin-bottom: 6px;
+}
+
+.modal-info-row:last-child {
+  margin-bottom: 0;
+}
+
+.modal-form-group {
+  margin-bottom: 18px;
+}
+
+.modal-form-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 6px;
+}
+
+.modal-required {
+  color: var(--lg-red);
+  margin-left: 2px;
+}
+
+.modal-form-input,
+.modal-form-select,
+.modal-form-textarea {
+  width: 100%;
+  padding: 11px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--gray-900);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+}
+
+.modal-form-input:focus,
+.modal-form-select:focus,
+.modal-form-textarea:focus {
+  outline: none;
+  border-color: var(--lg-red);
+  box-shadow: 0 0 0 3px rgba(200, 19, 42, 0.08);
+}
+
+.modal-form-input::placeholder,
+.modal-form-textarea::placeholder {
+  color: var(--gray-500);
+}
+
+.modal-form-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+.modal-form-textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.modal-divider {
+  height: 1px;
+  background: var(--gray-200);
+  margin: 20px 0;
+}
+
+.modal-checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.modal-checkbox-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--lg-red);
+  cursor: pointer;
+}
+
+.modal-checkbox-text {
+  font-size: 13px;
+  color: var(--gray-700);
+  line-height: 1.5;
+}
+
+.modal-submit-btn {
+  width: 100%;
+  padding: 13px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--white);
+  background: var(--lg-red);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  margin-top: 20px;
+}
+
+.modal-submit-btn:hover {
+  background: var(--lg-red-dark);
+}
+
+.modal-submit-btn:active {
+  transform: scale(0.98);
+}
+
+.modal-submit-btn:disabled {
+  background: var(--gray-500);
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 성공 메시지 */
+.modal-success {
+  display: none;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.modal-success-icon {
+  width: 64px;
+  height: 64px;
+  background: #e8f5e9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.modal-success-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 8px;
+}
+
+.modal-success-desc {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+.modal-back-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--lg-red);
+  border: 1px solid var(--lg-red);
+  border-radius: 8px;
+  background: var(--white);
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.modal-back-btn:hover {
+  background: var(--lg-red-light);
+}
+
+/* 모달 반응형 */
+@media (max-width: 600px) {
+  .modal-overlay {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .modal-container {
+    border-radius: 0;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 24px 16px;
+  }
+}

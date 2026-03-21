@@ -1,3 +1,8 @@
+// ─── EmailJS 설정 (아래 값들을 교체하세요) ───
+const EMAILJS_PUBLIC_KEY = '4Up8VbSgiQ5b5E4lr';
+const EMAILJS_SERVICE_ID = 'service_14qzhtl';
+const EMAILJS_TEMPLATE_ID = 'template_rpv4rxq';
+
 let allProducts = [];
 let currentCategory = '전체';
 
@@ -48,7 +53,7 @@ function renderProducts(category) {
         <div class="product-price-wrap">
           ${priceHTML(p)}
         </div>
-        <button class="product-inquiry" onclick="handleInquiry('${p.name.replace(/'/g, "\\'")}')">
+        <button class="product-inquiry" onclick="handleInquiry('${p.category.replace(/'/g, "\\'")}', '${p.name.replace(/'/g, "\\'")}')">
           렌탈 문의하기
         </button>
       </div>
@@ -56,14 +61,61 @@ function renderProducts(category) {
   `).join('');
 }
 
-function handleInquiry(productName) {
-  alert(`[${productName}] 렌탈 문의\n\n전화: 010-0000-0000\n\n담당자가 친절히 안내해 드립니다.`);
+// ─── 모달 열기/닫기 ───
+
+function openModal() {
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
 }
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function handleInquiry(category, productName) {
+  // 제품 카테고리 자동 선택
+  const productSelect = document.getElementById('modalProductSelect');
+  const options = productSelect.options;
+  let matched = false;
+  for (let i = 0; i < options.length; i++) {
+    if (options[i].value === category) {
+      productSelect.selectedIndex = i;
+      matched = true;
+      break;
+    }
+  }
+  if (!matched) {
+    // 카테고리가 목록에 없으면 '기타' 선택
+    for (let i = 0; i < options.length; i++) {
+      if (options[i].value === '기타') {
+        productSelect.selectedIndex = i;
+        break;
+      }
+    }
+  }
+
+  // 제품명을 추가 요청사항에 미리 입력
+  document.getElementById('modalMessage').value = '문의 제품: ' + productName;
+
+  openModal();
+}
+
+function resetModalForm() {
+  const form = document.getElementById('quote-form');
+  form.reset();
+  document.getElementById('modal-form-section').style.display = '';
+  document.getElementById('modal-success-section').style.display = 'none';
+  const btn = document.getElementById('modal-submit-btn');
+  btn.disabled = false;
+  btn.textContent = '견적문의 보내기';
+}
+
+// ─── 카테고리 초기화 ───
 
 function initCategories(categories) {
   const list = document.getElementById('categoryList');
 
-  // 동적으로 카테고리 목록 생성
   list.innerHTML = `<li class="category-item active" data-category="전체">전체</li>` +
     categories.map(c => `<li class="category-item" data-category="${c.name}">${c.name}</li>`).join('');
 
@@ -80,12 +132,13 @@ function initCategories(categories) {
   });
 }
 
+// ─── 초기화 ───
+
 async function init() {
   try {
     const res = await fetch('data/products.json');
     const data = await res.json();
 
-    // 카테고리별 products를 flat array로 변환
     allProducts = data.categories.flatMap(cat =>
       cat.products.map(p => ({ ...p, category: cat.name }))
     );
@@ -96,6 +149,57 @@ async function init() {
     document.getElementById('productGrid').innerHTML =
       '<div class="empty-state"><p>상품 데이터를 불러오는 중 오류가 발생했습니다.</p></div>';
   }
+
+  // EmailJS 초기화
+  if (typeof emailjs !== 'undefined') {
+    emailjs.init(EMAILJS_PUBLIC_KEY);
+  }
+
+  // 모달 이벤트
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('modalOverlay').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+  document.getElementById('modalResetBtn').addEventListener('click', resetModalForm);
+
+  // ESC 키로 닫기
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  // 폼 전송
+  const form = document.getElementById('quote-form');
+  const submitBtn = document.getElementById('modal-submit-btn');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = '전송 중...';
+
+    const formData = new FormData(form);
+    const data = {};
+    formData.forEach((value, key) => { data[key] = value; });
+
+    if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
+      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, data)
+        .then(function() {
+          document.getElementById('modal-form-section').style.display = 'none';
+          document.getElementById('modal-success-section').style.display = 'block';
+        })
+        .catch(function(error) {
+          alert('전송에 실패했습니다. 전화(010-0000-0000)로 문의해주세요.');
+          console.error('EmailJS Error:', error);
+          submitBtn.disabled = false;
+          submitBtn.textContent = '견적문의 보내기';
+        });
+    } else {
+      // EmailJS 미설정 시 성공 화면만 표시 (개발/테스트용)
+      console.warn('EmailJS가 설정되지 않았습니다. 폼 데이터:', data);
+      document.getElementById('modal-form-section').style.display = 'none';
+      document.getElementById('modal-success-section').style.display = 'block';
+    }
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);

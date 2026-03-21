@@ -60,6 +60,118 @@
     <p>(주)드림정보시스템 | LG전자 공식 렌탈 서비스 | 문의: 010-0000-0000</p>
   </footer>
 
+  <!-- 견적문의 모달 -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose">&times;</button>
+
+      <div id="modal-form-section">
+        <h2 class="modal-title">견적문의</h2>
+        <p class="modal-desc">
+          원하시는 제품과 연락처를 남겨주시면,<br>
+          영업일 기준 24시간 이내에 연락드리겠습니다.
+        </p>
+
+        <div class="modal-info-box">
+          <div class="modal-info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c30036" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>빠른 상담: 카카오톡 채널 "드림정보시스템" 검색</span>
+          </div>
+          <div class="modal-info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c30036" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span>상담 가능 시간: 평일 09:00 ~ 18:00</span>
+          </div>
+        </div>
+
+        <form id="quote-form">
+          <div class="modal-form-group">
+            <label class="modal-form-label">이름 / 회사명 <span class="modal-required">*</span></label>
+            <input type="text" class="modal-form-input" name="name" placeholder="홍길동 / (주)OO기업" required>
+          </div>
+
+          <div class="modal-form-group">
+            <label class="modal-form-label">연락처 <span class="modal-required">*</span></label>
+            <input type="tel" class="modal-form-input" name="phone" placeholder="010-0000-0000" required>
+          </div>
+
+          <div class="modal-divider"></div>
+
+          <div class="modal-form-group">
+            <label class="modal-form-label">관심 제품 <span class="modal-required">*</span></label>
+            <select class="modal-form-select" name="product" id="modalProductSelect" required>
+              <option value="" disabled selected>제품을 선택해주세요</option>
+              <option value="냉장고">냉장고</option>
+              <option value="에어컨">에어컨</option>
+              <option value="공기청정기">공기청정기</option>
+              <option value="TV">TV</option>
+              <option value="세탁기/워시타워">세탁기/워시타워</option>
+              <option value="청소기">청소기</option>
+              <option value="스타일러">스타일러</option>
+              <option value="노트북">노트북</option>
+              <option value="기타">기타 (아래 메모에 작성)</option>
+            </select>
+          </div>
+
+          <div class="modal-form-group">
+            <label class="modal-form-label">렌탈 희망 기간</label>
+            <select class="modal-form-select" name="duration">
+              <option value="" disabled selected>기간을 선택해주세요</option>
+              <option value="1개월 미만 (단기)">1개월 미만 (단기)</option>
+              <option value="1~6개월">1~6개월</option>
+              <option value="6~12개월">6~12개월</option>
+              <option value="12개월 이상 (장기)">12개월 이상 (장기)</option>
+              <option value="미정">아직 미정</option>
+            </select>
+          </div>
+
+          <div class="modal-form-group">
+            <label class="modal-form-label">수량</label>
+            <select class="modal-form-select" name="quantity">
+              <option value="1대">1대</option>
+              <option value="2~5대">2~5대</option>
+              <option value="6~10대">6~10대</option>
+              <option value="10대 이상">10대 이상 (대량)</option>
+            </select>
+          </div>
+
+          <div class="modal-form-group">
+            <label class="modal-form-label">추가 요청사항</label>
+            <textarea class="modal-form-textarea" name="message" id="modalMessage" placeholder="원하시는 모델명, 사양, 배송 일정 등을 자유롭게 적어주세요."></textarea>
+          </div>
+
+          <div class="modal-divider"></div>
+
+          <div class="modal-form-group">
+            <div class="modal-checkbox-row">
+              <input type="checkbox" id="modalPrivacy" required>
+              <label class="modal-checkbox-text" for="modalPrivacy">
+                견적 상담을 위한 <strong>개인정보 수집 및 이용</strong>에 동의합니다.
+                (수집항목: 이름, 연락처 / 보유기간: 상담 완료 후 30일)
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="modal-submit-btn" id="modal-submit-btn">견적문의 보내기</button>
+        </form>
+      </div>
+
+      <!-- 전송 성공 -->
+      <div class="modal-success" id="modal-success-section">
+        <div class="modal-success-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" width="32" height="32"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <div class="modal-success-title">견적문의가 접수되었습니다</div>
+        <div class="modal-success-desc">
+          영업일 기준 24시간 이내에 연락드리겠습니다.<br>
+          빠른 상담을 원하시면 카카오톡 채널로 문의해주세요.
+        </div>
+        <button class="modal-back-btn" id="modalResetBtn">다른 제품도 문의하기</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

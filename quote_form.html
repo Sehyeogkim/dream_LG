@@ -322,44 +322,6 @@ body {
         <input type="tel" class="form-input" name="phone" placeholder="010-0000-0000" required>
       </div>
 
-      <!-- 선호 연락 방법 -->
-      <div class="form-group">
-        <label class="form-label">선호 연락 방법 <span class="required">*</span></label>
-        <div class="radio-group">
-          <div class="radio-option">
-            <input type="radio" name="contact_method" id="method-phone" value="전화" required>
-            <label for="method-phone">전화</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" name="contact_method" id="method-kakao" value="카카오톡" checked>
-            <label for="method-kakao">카카오톡</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" name="contact_method" id="method-text" value="문자">
-            <label for="method-text">문자</label>
-          </div>
-        </div>
-      </div>
-
-      <!-- 선호 연락 시간 -->
-      <div class="form-group">
-        <label class="form-label">선호 연락 시간</label>
-        <div class="radio-group">
-          <div class="radio-option">
-            <input type="radio" name="preferred_time" id="time-am" value="오전 (9~12시)">
-            <label for="time-am">오전</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" name="preferred_time" id="time-pm" value="오후 (12~18시)" checked>
-            <label for="time-pm">오후</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" name="preferred_time" id="time-any" value="상관없음">
-            <label for="time-any">상관없음</label>
-          </div>
-        </div>
-      </div>
-
       <div class="divider"></div>
 
       <!-- 제품 카테고리 -->
@@ -452,9 +414,7 @@ body {
   ║     Body:                                                ║
   ║       이름: {{name}}                                      ║
   ║       연락처: {{phone}}                                   ║
-  ║       연락방법: {{contact_method}}                        ║
-  ║       연락시간: {{preferred_time}}                        ║
-  ║       제품: {{product}}                                   ║
+  ║  ║       제품: {{product}}                                   ║
   ║       기간: {{duration}}                                  ║
   ║       수량: {{quantity}}                                  ║
   ║       메모: {{message}}                                   ║
