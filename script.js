@@ -1,6 +1,6 @@
 // ─── Google Apps Script 설정 ───
 // Google Apps Script 웹앱 배포 후 아래 URL을 교체하세요
-const GAS_WEBAPP_URL = 'YOUR_GAS_WEBAPP_URL';
+const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbwGIQc161jg49b6dL-nUxgXz14WZ3Orxr3ARGTM7ZebFQnPiIdlEqjdTft-JShjowz1Pg/exec';
 
 let allProducts = [];
 let currentCategory = '전체';
