@@ -1,0 +1,95 @@
+{
+  "category": "안마의자",
+  "sheet_name": "안마의자",
+  "count": 8,
+  "products": [
+    {
+      "model_id": "MX91WR.CKOR",
+      "product_name": "전신형 안마의자",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 125300,
+        "60": 107200,
+        "72": 91100
+      }
+    },
+    {
+      "model_id": "MH81RR.CKOR",
+      "product_name": "전신형 안마의자",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 114800,
+        "48": 84400,
+        "60": 72100,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "MH65CC.CKOR",
+      "product_name": "전신형 안마의자",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 104400,
+        "48": 76800,
+        "60": 65400,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "MH66CB.CKOR",
+      "product_name": "전신형 안마의자",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 94900,
+        "48": 70200,
+        "60": 59700,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "MH67BR.CKOR",
+      "product_name": "전신형 안마의자",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 87300,
+        "48": 64500,
+        "60": 55000,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "MH21BB.CKOR",
+      "product_name": "가구형 안마의자",
+      "visit_cycle": "36개월",
+      "prices": {
+        "36": 89200,
+        "48": 61600,
+        "60": 52100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "MH20BR.CKOR",
+      "product_name": "가구형 안마의자",
+      "visit_cycle": "36개월",
+      "prices": {
+        "36": 80600,
+        "48": 56900,
+        "60": 49300,
+        "72": 42600
+      }
+    },
+    {
+      "model_id": "MH21BBY.CKOR",
+      "product_name": "가구형 안마의자",
+      "visit_cycle": "36개월",
+      "prices": {
+        "36": 92000,
+        "48": 71100,
+        "60": 57800,
+        "72": 48300
+      }
+    }
+  ]
+}

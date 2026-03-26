@@ -1,0 +1,55 @@
+{
+  "category": "광파오븐",
+  "sheet_name": "광파오븐",
+  "count": 4,
+  "products": [
+    {
+      "model_id": "MLJ32ERS.CKOR",
+      "product_name": "광파오븐",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 37700,
+        "48": 30700,
+        "60": 26600,
+        "72": 23700
+      }
+    },
+    {
+      "model_id": "MLJ32HRS.CKOR",
+      "product_name": "광파오븐",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 37700,
+        "48": 30700,
+        "60": 26600,
+        "72": 23700
+      }
+    },
+    {
+      "model_id": "MLJ32PRS.CKOR",
+      "product_name": "광파오븐",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 37700,
+        "48": 30700,
+        "60": 26600,
+        "72": 23700
+      }
+    },
+    {
+      "model_id": "MLJ32MRS.CKOR",
+      "product_name": "광파오븐",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 37700,
+        "48": 30700,
+        "60": 26600,
+        "72": 23700
+      }
+    }
+  ]
+}

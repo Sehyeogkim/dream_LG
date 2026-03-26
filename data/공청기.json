@@ -1,0 +1,202 @@
+{
+  "category": "공기청정기",
+  "sheet_name": "공청기",
+  "count": 15,
+  "products": [
+    {
+      "model_id": "AS192DSFAM.AKOR2",
+      "product_name": "구독전용 1단 (19평)",
+      "category_sub": "공기청정기",
+      "size": "19평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 45500,
+        "48": 36900,
+        "60": 31200,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "AS322DSFAM.AKOR2",
+      "product_name": "구독전용 2단 (32평)",
+      "category_sub": "공기청정기",
+      "size": "32평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 58800,
+        "48": 48300,
+        "60": 41700,
+        "72": 36900
+      }
+    },
+    {
+      "model_id": "F065PSKAM.AKOR2",
+      "product_name": "25년형 에어로타워(온풍) (6평)",
+      "category_sub": "공기청정기",
+      "size": "6평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 42600,
+        "48": 34100,
+        "60": 29300,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "AS195DWWAM.AKOR2",
+      "product_name": "25년형 360 플러스 1단 (19평)",
+      "category_sub": "공기청정기",
+      "size": "19평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 38800,
+        "48": 31200,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "AS195DWWAM.AKOR2\n(프리미엄)",
+      "product_name": "25년형 360 플러스 1단 (19평)",
+      "category_sub": "공기청정기",
+      "size": "19평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 0
+      }
+    },
+    {
+      "model_id": "AS305DWWAM.AKOR2",
+      "product_name": "25년형 360 플러스 2단 (30평)",
+      "category_sub": "공기청정기",
+      "size": "30평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 54000,
+        "48": 43600,
+        "60": 37900,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "AS305DWWAM.AKOR2\n(프리미엄)",
+      "product_name": "25년형 360 플러스 2단 (30평)",
+      "category_sub": "공기청정기",
+      "size": "30평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 0
+      }
+    },
+    {
+      "model_id": "AS285DWWAM.AKOR2",
+      "product_name": "25년형 360 플러스 2단 (28평)",
+      "category_sub": "공기청정기",
+      "size": "28평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 50200,
+        "48": 41700,
+        "60": 36000,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "AS285DWWAM.AKOR2\n(프리미엄)",
+      "product_name": "25년형 360 플러스 2단 (28평)",
+      "category_sub": "공기청정기",
+      "size": "28평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 0
+      }
+    },
+    {
+      "model_id": "AS405BWRR.AKOR",
+      "product_name": "스탠드 공기청정기 (40평)",
+      "category_sub": "공기청정기",
+      "size": "40평",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 93900,
+        "48": 78700,
+        "60": 69200,
+        "72": 63500
+      }
+    },
+    {
+      "model_id": "AS065PWHA.AKOR",
+      "product_name": "에어로퍼니쳐 (6평)",
+      "category_sub": "공기청정기",
+      "size": "6평",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 29300,
+        "48": 24600,
+        "60": 21700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "AS065SWHA.AKOR",
+      "product_name": "에어로사운드 (6평)",
+      "category_sub": "공기청정기",
+      "size": "6평",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 37900,
+        "48": 31200,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "AS065CWHA.AKOR",
+      "product_name": "에어로스피커 (6평)",
+      "category_sub": "공기청정기",
+      "size": "6평",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 45500,
+        "48": 37900,
+        "60": 33100,
+        "72": 29300
+      }
+    },
+    {
+      "model_id": "AS155GWDL.AKOR",
+      "product_name": "에어로부스터 (15평)",
+      "category_sub": "공기청정기",
+      "size": "15평",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 35000,
+        "48": 29300,
+        "60": 25500,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "AS185LSAA.AKOR",
+      "product_name": "월핏 (그릴) (18평)",
+      "category_sub": "신규",
+      "size": "18평",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 38800,
+        "48": 32200,
+        "60": 28400,
+        "72": 25500
+      }
+    }
+  ]
+}

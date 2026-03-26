@@ -1,0 +1,1428 @@
+{
+  "category": "세탁기/건조기",
+  "sheet_name": "세탁기,건조기",
+  "count": 113,
+  "products": [
+    {
+      "model_id": "FH25GAG.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 148100,
+        "48": 114800,
+        "60": 94900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "FH25GAGF.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 153800,
+        "48": 119600,
+        "60": 98700,
+        "72": 85400
+      }
+    },
+    {
+      "model_id": "FH25GAGX.CKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 169800,
+        "48": 129200,
+        "60": 108100,
+        "72": 90900
+      }
+    },
+    {
+      "model_id": "FH25EAE.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 148100,
+        "48": 114800,
+        "60": 94900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "FH25EAEF.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 153800,
+        "48": 119600,
+        "60": 98700,
+        "72": 85400
+      }
+    },
+    {
+      "model_id": "FH25EAEX.CKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 169800,
+        "48": 129200,
+        "60": 108100,
+        "72": 90900
+      }
+    },
+    {
+      "model_id": "FH25GSG.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 148100,
+        "48": 115800,
+        "60": 95800,
+        "72": 82500
+      }
+    },
+    {
+      "model_id": "FH25GSGF.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 155700,
+        "48": 120500,
+        "60": 99600,
+        "72": 86300
+      }
+    },
+    {
+      "model_id": "FH25GSGX.CKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 169800,
+        "48": 130200,
+        "60": 108900,
+        "72": 91700
+      }
+    },
+    {
+      "model_id": "FH25ESE.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 148100,
+        "48": 115800,
+        "60": 95800,
+        "72": 82500
+      }
+    },
+    {
+      "model_id": "FH25ESEF.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 155700,
+        "48": 120500,
+        "60": 99600,
+        "72": 86300
+      }
+    },
+    {
+      "model_id": "FH25ESEFX.CKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 169800,
+        "48": 130200,
+        "60": 108900,
+        "72": 91700
+      }
+    },
+    {
+      "model_id": "FH24ENE.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 135700,
+        "48": 105300,
+        "60": 87300,
+        "72": 74900
+      }
+    },
+    {
+      "model_id": "FH24ENEF.AKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 141400,
+        "48": 110100,
+        "60": 91100,
+        "72": 78700
+      }
+    },
+    {
+      "model_id": "FH24ENEX.CKOR",
+      "product_name": "워시콤보",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 157500,
+        "48": 120000,
+        "60": 100700,
+        "72": 84500
+      }
+    },
+    {
+      "model_id": "FX4GC.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 33100,
+        "48": 26500,
+        "60": 23600,
+        "72": 20800
+      }
+    },
+    {
+      "model_id": "FX4EC.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 33100,
+        "48": 26500,
+        "60": 23600,
+        "72": 20800
+      }
+    },
+    {
+      "model_id": "FX4KC.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 31200,
+        "48": 25500,
+        "60": 22700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "FX4KCQ.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 31200,
+        "48": 25500,
+        "60": 22700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "FX4KCQ.CKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 25500,
+        "48": 20800,
+        "60": 17900,
+        "72": 17000
+      }
+    },
+    {
+      "model_id": "FX4VC.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 30300,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "FX4VCQ.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 30300,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "FX4VCQ.CKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 23600,
+        "48": 19800,
+        "60": 17000,
+        "72": 16000
+      }
+    },
+    {
+      "model_id": "FX4WC.BKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 28400,
+        "48": 23600,
+        "60": 19800,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "FX4WC.CKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 22700,
+        "48": 18900,
+        "60": 16000,
+        "72": 15100
+      }
+    },
+    {
+      "model_id": "FX4GC.CKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 26500,
+        "48": 21700,
+        "60": 18900,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "FX4EC.CKOR",
+      "product_name": "미니워시",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 26500,
+        "48": 21700,
+        "60": 18900,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "WA2525EGZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525GEZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525GGZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525EEZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525MYZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525YMZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525MMZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525YYZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525KDF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525IIHF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525YEZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2525EYZF.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 165200,
+        "48": 129100,
+        "60": 107200,
+        "72": 92000
+      }
+    },
+    {
+      "model_id": "WA2323EGZN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 150900,
+        "48": 117700,
+        "60": 97700,
+        "72": 84400
+      }
+    },
+    {
+      "model_id": "WA2323IIAN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 150900,
+        "48": 117700,
+        "60": 97700,
+        "72": 84400
+      }
+    },
+    {
+      "model_id": "WA2323GEZN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 150900,
+        "48": 117700,
+        "60": 97700,
+        "72": 84400
+      }
+    },
+    {
+      "model_id": "W2520WZM.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 118600,
+        "48": 93000,
+        "60": 77800,
+        "72": 67300
+      }
+    },
+    {
+      "model_id": "WL21GGN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 138600,
+        "48": 108200,
+        "60": 90100,
+        "72": 77800
+      }
+    },
+    {
+      "model_id": "WL21GEN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 138600,
+        "48": 108200,
+        "60": 90100,
+        "72": 77800
+      }
+    },
+    {
+      "model_id": "WL21EGN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 138600,
+        "48": 108200,
+        "60": 90100,
+        "72": 77800
+      }
+    },
+    {
+      "model_id": "WL21EEN.AKOR",
+      "product_name": "워시타워",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 138600,
+        "48": 108200,
+        "60": 90100,
+        "72": 77800
+      }
+    },
+    {
+      "model_id": "W1310EGN.AKOR1",
+      "product_name": "워시타워 컴팩트",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 93000,
+        "48": 73000,
+        "60": 61600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "RD25TS.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25AS.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25ESE.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25GSG.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25IS.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25KS.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD25VS.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 62600,
+        "60": 52100,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "RD21GSG.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "RD21GN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 68300,
+        "48": 53100,
+        "60": 44500,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "RG20GN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 60700,
+        "48": 47400,
+        "60": 39800,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "RG20EN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 60700,
+        "48": 47400,
+        "60": 39800,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "RG20KN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "RG20VN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 56900,
+        "48": 44500,
+        "60": 37900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "RG19KN.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 56900,
+        "48": 44500,
+        "60": 37900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "RG18WNT.AKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 50200,
+        "48": 38800,
+        "60": 33100,
+        "72": 28400
+      }
+    },
+    {
+      "model_id": "RH10VTA.BKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 43600,
+        "48": 34100,
+        "60": 28400,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "RH10WTA.BKOR",
+      "product_name": "건조기",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 41700,
+        "48": 33100,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "FX25TF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25TF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25AF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25AF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25EFE.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25EFE.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25GFG.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25GFG.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25IF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25IF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25KF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25KF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25VF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 63500,
+        "72": 47400
+      }
+    },
+    {
+      "model_id": "FX25VF.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FX25EAR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 61600,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "FX25EAR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "FX25GAR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 61600,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "FX25GAR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "FX25ENR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 59700,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "FX25ENR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 69200,
+        "48": 54000,
+        "60": 45500,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "FX25GNR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 59700,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "FX25GNR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 69200,
+        "48": 54000,
+        "60": 45500,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "FX24WNR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 53100,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "FX24WNR.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 59700,
+        "48": 47400,
+        "60": 39800,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "FG24KN.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 55000,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "FG24KN.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 63500,
+        "48": 49300,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "FG21KN.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 49300,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "FG21KN.AKOR2",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 55000,
+        "48": 43600,
+        "60": 36900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "F17HTP.AKOR1",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 39800,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "F17HTP.AKOR1",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 42600,
+        "48": 34100,
+        "60": 29300,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "F12WVA.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 35000,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "F12WVA.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 36000,
+        "48": 28400,
+        "60": 23600,
+        "72": 20800
+      }
+    },
+    {
+      "model_id": "F12VVA.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 37900,
+        "72": 29300
+      }
+    },
+    {
+      "model_id": "F12VVA.AKOR",
+      "product_name": "드럼",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 38800,
+        "48": 31200,
+        "60": 26500,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "TA25GZ9.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 41700,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "TA25GZ9.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 53100,
+        "48": 41700,
+        "60": 35000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "T21GZ9.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 36000,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "T21GZ9.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 45500,
+        "48": 36000,
+        "60": 30300,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "T19OZ0.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 32200,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "T19OZ0.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 40700,
+        "48": 32200,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "T19MX8.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 29300,
+        "72": 21700
+      }
+    },
+    {
+      "model_id": "T19MX8.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 36000,
+        "48": 29300,
+        "60": 24600,
+        "72": 21700
+      }
+    },
+    {
+      "model_id": "T19MX7A.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 25500,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "T19MX7A.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 31200,
+        "48": 25500,
+        "60": 21700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "T18MX7.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 25500,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "T18MX7.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 31200,
+        "48": 25500,
+        "60": 21700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "T17DX3A.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "프리미엄",
+      "visit_cycle": "24개월",
+      "prices": {
+        "48": 20800,
+        "72": 17000
+      }
+    },
+    {
+      "model_id": "T17DX3A.AKOR",
+      "product_name": "통돌이",
+      "category_sub": "세탁기/건조기",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 25500,
+        "48": 20800,
+        "60": 17900,
+        "72": 17000
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "category": "스타일러/슈케어",
+  "sheet_name": "스타일러,슈케어",
+  "count": 23,
+  "products": [
+    {
+      "model_id": "SC5GMR80A.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 88200,
+        "48": 71100,
+        "60": 59700,
+        "72": 52100
+      }
+    },
+    {
+      "model_id": "SC5MBR80A.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 85400,
+        "48": 68300,
+        "60": 57800,
+        "72": 50200
+      }
+    },
+    {
+      "model_id": "SC5GMR70.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 81600,
+        "48": 66400,
+        "60": 55900,
+        "72": 48300
+      }
+    },
+    {
+      "model_id": "SC5GMR60B.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 76800,
+        "48": 62600,
+        "60": 53100,
+        "72": 46400
+      }
+    },
+    {
+      "model_id": "SC5MBR60B.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 74000,
+        "48": 60700,
+        "60": 51200,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "SC5MHR60.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 73000,
+        "48": 58800,
+        "60": 50200,
+        "72": 43600
+      }
+    },
+    {
+      "model_id": "SC5GMR80A.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 83500,
+        "48": 64500,
+        "60": 53100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "SC5MBR80A.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 61600,
+        "60": 51200,
+        "72": 43600
+      }
+    },
+    {
+      "model_id": "SC5GMR70.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 76800,
+        "48": 59700,
+        "60": 49300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "SC5GMR60B.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 72100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "SC5MBR60B.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 69200,
+        "48": 54000,
+        "60": 44500,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "SC5MHR60.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 68300,
+        "48": 52100,
+        "60": 43600,
+        "72": 36900
+      }
+    },
+    {
+      "model_id": "SC5MSR40.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 64500,
+        "48": 53100,
+        "60": 45500,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "SC5MBR43.AKOR",
+      "product_name": "스타일러",
+      "service_type": "프리미엄",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 52100,
+        "48": 43600,
+        "60": 36900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SC5MSR40.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 59700,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SC5MBR43.AKOR",
+      "product_name": "스타일러",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 47400,
+        "48": 36900,
+        "60": 30300,
+        "72": 26500
+      }
+    },
+    {
+      "model_id": "S3BOF.BKOR",
+      "product_name": "스타일러",
+      "service_type": "없음.",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 39800,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "S3GOF.BKOR",
+      "product_name": "스타일러",
+      "service_type": "없음.",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 39800,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "S3BF.BKOR",
+      "product_name": "스타일러",
+      "service_type": "없음.",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 55900,
+        "48": 44500,
+        "60": 37900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "S3GHM.BKOR",
+      "product_name": "스타일러",
+      "service_type": "없음.",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 46400,
+        "48": 36900,
+        "60": 31200,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "S3CMC.BKOR",
+      "product_name": "스타일러",
+      "service_type": "없음.",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 38800,
+        "48": 31200,
+        "60": 26500,
+        "72": 23600
+      }
+    },
+    {
+      "model_id": "SS4RHS60E.AKOR",
+      "product_name": "슈케어",
+      "service_type": "없음.",
+      "visit_cycle": "자가관리",
+      "prices": {
+        "36": 47400,
+        "48": 39800,
+        "60": 33100,
+        "72": 28400
+      }
+    },
+    {
+      "model_id": "SS4RWS60E.AKOR",
+      "product_name": "슈케어",
+      "service_type": "없음.",
+      "visit_cycle": "자가관리",
+      "prices": {
+        "36": 47400,
+        "48": 39800,
+        "60": 33100,
+        "72": 28400
+      }
+    }
+  ]
+}

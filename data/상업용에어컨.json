@@ -1,0 +1,268 @@
+{
+  "category": "상업용에어컨",
+  "sheet_name": "상업용에어컨",
+  "count": 29,
+  "products": [
+    {
+      "model_id": "PW052PT2KR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 147100
+      }
+    },
+    {
+      "model_id": "PW060PT2KR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 161400
+      }
+    },
+    {
+      "model_id": "PW072PT2KR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 163300
+      }
+    },
+    {
+      "model_id": "PW083PT2KR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 172800
+      }
+    },
+    {
+      "model_id": "PW1100U2KHR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 217400
+      }
+    },
+    {
+      "model_id": "PW1100U9KHR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 217400
+      }
+    },
+    {
+      "model_id": "PW1300U2KHR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 232600
+      }
+    },
+    {
+      "model_id": "PW1300U9KHR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 232600
+      }
+    },
+    {
+      "model_id": "PW1450U9KHR.ASM",
+      "product_name": "슈프림 (1등급)",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 251600
+      }
+    },
+    {
+      "model_id": "PW0520R2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 87300
+      }
+    },
+    {
+      "model_id": "PW0600R2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 89200
+      }
+    },
+    {
+      "model_id": "PW0720R2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 93900
+      }
+    },
+    {
+      "model_id": "PW0830R2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 98700
+      }
+    },
+    {
+      "model_id": "PW1100T2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 124300
+      }
+    },
+    {
+      "model_id": "PW1100T9KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 124300
+      }
+    },
+    {
+      "model_id": "PW1300T2KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 131900
+      }
+    },
+    {
+      "model_id": "PW1300T9KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 131900
+      }
+    },
+    {
+      "model_id": "PW1450T9KSL.ASM",
+      "product_name": "프리미엄 플러스",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 133800
+      }
+    },
+    {
+      "model_id": "PW0520R2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 74900
+      }
+    },
+    {
+      "model_id": "PW0600R2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 78700
+      }
+    },
+    {
+      "model_id": "PW0720R2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 83500
+      }
+    },
+    {
+      "model_id": "PW0830R2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 84400
+      }
+    },
+    {
+      "model_id": "PW1100T2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 109100
+      }
+    },
+    {
+      "model_id": "PW1100T9KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 109100
+      }
+    },
+    {
+      "model_id": "PW1300T2KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 113900
+      }
+    },
+    {
+      "model_id": "PW1300T9KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 113900
+      }
+    },
+    {
+      "model_id": "PW1450T9KL.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 116700
+      }
+    },
+    {
+      "model_id": "PW2300F9KSF.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 249700
+      }
+    },
+    {
+      "model_id": "PW2900F9KSF.ASM",
+      "product_name": "프리미엄",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 281100
+      }
+    }
+  ]
+}

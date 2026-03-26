@@ -1,0 +1,513 @@
+{
+  "category": "벽걸이에어컨",
+  "sheet_name": "벽걸이에어컨",
+  "count": 46,
+  "products": [
+    {
+      "model_id": "SQ07FA3WBS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 42600,
+        "48": 36900,
+        "60": 33100,
+        "72": 30300
+      }
+    },
+    {
+      "model_id": "SQ07FA3WBS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 35000,
+        "48": 29300,
+        "60": 25500,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "SW07FK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 58800,
+        "48": 49300,
+        "60": 42600,
+        "72": 38800
+      }
+    },
+    {
+      "model_id": "SW07FK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 51200,
+        "48": 41700,
+        "60": 35000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "SW09FK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 62600,
+        "48": 51200,
+        "60": 44500,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "SW09FK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 55000,
+        "48": 43600,
+        "60": 36900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "SQ06FS1EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 53100,
+        "48": 44500,
+        "60": 38800,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "SQ06FS1EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 45500,
+        "48": 36900,
+        "60": 31200,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "SQ07FS8EES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 60700,
+        "48": 50200,
+        "60": 43600,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "SQ07FS8EES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 53100,
+        "48": 42600,
+        "60": 36000,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "SQ11EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 60700,
+        "48": 50200,
+        "60": 43600,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "SQ11EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 53100,
+        "48": 42600,
+        "60": 36000,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "SQ13EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 62600,
+        "48": 52100,
+        "60": 41900,
+        "72": 40700
+      }
+    },
+    {
+      "model_id": "SQ13EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 55000,
+        "48": 44500,
+        "60": 31900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SW11EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 65400,
+        "48": 54000,
+        "60": 41900,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "SW11EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 57800,
+        "48": 46400,
+        "60": 31900,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "SW13EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 70200,
+        "48": 56900,
+        "60": 41900,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "SW13EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 62600,
+        "48": 49300,
+        "60": 31900,
+        "72": 36900
+      }
+    },
+    {
+      "model_id": "SW07EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 71100,
+        "48": 58800,
+        "60": 41900,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "SW07EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 63500,
+        "48": 51200,
+        "60": 31900,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "SQ06EJ1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 48300,
+        "48": 40700,
+        "60": 41900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SQ06EJ1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 40700,
+        "48": 33100,
+        "60": 31900,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "SQ07EJ3WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 52100,
+        "48": 43600,
+        "60": 41900,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "SQ07EJ3WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 44500,
+        "48": 36000,
+        "60": 31900,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "SQ16EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 69200,
+        "48": 56900,
+        "60": 41900,
+        "72": 43600
+      }
+    },
+    {
+      "model_id": "SQ16EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 61600,
+        "48": 49300,
+        "60": 31900,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "SW16EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 80600,
+        "48": 65400,
+        "60": 41900,
+        "72": 50200
+      }
+    },
+    {
+      "model_id": "SW16EK1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 73000,
+        "48": 57800,
+        "60": 31900,
+        "72": 42600
+      }
+    },
+    {
+      "model_id": "SQ07EA3WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 46400,
+        "48": 38800,
+        "60": 41900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "SQ07EA3WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 38800,
+        "48": 31200,
+        "60": 31900,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "SQ09EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 55900,
+        "48": 46400,
+        "60": 41900,
+        "72": 36900
+      }
+    },
+    {
+      "model_id": "SQ09EK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 48300,
+        "48": 38800,
+        "60": 31900,
+        "72": 29300
+      }
+    },
+    {
+      "model_id": "SQ09EJ1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 49300,
+        "48": 41700,
+        "60": 41900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SQ09EJ1WAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 41700,
+        "48": 34100,
+        "60": 31900,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "SQ06GJ1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 50200,
+        "48": 41700,
+        "60": 41900,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "SQ06GJ1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 42600,
+        "48": 34100,
+        "60": 31900,
+        "72": 26500
+      }
+    },
+    {
+      "model_id": "SQ06GJ1WFS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 49300,
+        "48": 41700,
+        "60": 41900,
+        "72": 34100
+      }
+    },
+    {
+      "model_id": "SQ06GJ1WFS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 41700,
+        "48": 34100,
+        "60": 31900,
+        "72": 26500
+      }
+    },
+    {
+      "model_id": "SQ07GS9EES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 64500,
+        "48": 53100,
+        "60": 41900,
+        "72": 40700
+      }
+    },
+    {
+      "model_id": "SQ07GS9EES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 56900,
+        "48": 45500,
+        "60": 31900,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "SQ07GS8EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 55900,
+        "48": 46400,
+        "60": 41900,
+        "72": 36900
+      }
+    },
+    {
+      "model_id": "SQ07GS8EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 48300,
+        "48": 38800,
+        "60": 31900,
+        "72": 29300
+      }
+    },
+    {
+      "model_id": "SQ07GS7EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 51200,
+        "48": 43600,
+        "60": 41900,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "SQ07GS7EAS.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 43600,
+        "48": 36000,
+        "60": 31900,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "SW07GK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "프리미엄",
+      "prices": {
+        "36": 72100,
+        "48": 58800,
+        "60": 41900,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "SW07GK1WES.AKOR",
+      "product_name": "에어컨 벽걸이",
+      "service_type": "라이트 플러스",
+      "prices": {
+        "36": 64500,
+        "48": 51200,
+        "60": 31900,
+        "72": 37900
+      }
+    }
+  ]
+}

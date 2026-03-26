@@ -1,0 +1,20 @@
+{
+  "category": "전기레인지",
+  "sheet_name": "전기레인지",
+  "count": 1,
+  "products": [
+    {
+      "model_id": "전기레인지",
+      "product_name": "",
+      "category_sub": "W826SVV482S.AKOR",
+      "size": "",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 6,
+        "48": 56200,
+        "60": 45700,
+        "72": 174358
+      }
+    }
+  ]
+}

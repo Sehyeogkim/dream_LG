@@ -1,0 +1,3151 @@
+{
+  "category": "냉장고",
+  "sheet_name": "냉장고",
+  "count": 262,
+  "products": [
+    {
+      "model_id": "W826SVV482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 212700,
+        "48": 168000,
+        "60": 141400,
+        "72": 123400
+      }
+    },
+    {
+      "model_id": "W826SKV482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 212700,
+        "48": 168000,
+        "60": 141400,
+        "72": 123400
+      }
+    },
+    {
+      "model_id": "W826GBB482.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 203200,
+        "48": 161400,
+        "60": 135700,
+        "72": 118600
+      }
+    },
+    {
+      "model_id": "W826GQQ482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 203200,
+        "48": 161400,
+        "60": 135700,
+        "72": 118600
+      }
+    },
+    {
+      "model_id": "W826GGG482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 203200,
+        "48": 161400,
+        "60": 135700,
+        "72": 118600
+      }
+    },
+    {
+      "model_id": "W826GGA482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 203200,
+        "48": 161400,
+        "60": 135700,
+        "72": 118600
+      }
+    },
+    {
+      "model_id": "W826MQQ482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 193700,
+        "48": 153800,
+        "60": 130000,
+        "72": 113900
+      }
+    },
+    {
+      "model_id": "W826MNQ482S.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 193700,
+        "48": 153800,
+        "60": 130000,
+        "72": 113900
+      }
+    },
+    {
+      "model_id": "W826GBB182.AKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 191800,
+        "48": 152800,
+        "60": 129100,
+        "72": 112900
+      }
+    },
+    {
+      "model_id": "J816MEE17-F.CKOR",
+      "product_name": "DIOS 얼정냉(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 110100,
+        "48": 89200,
+        "60": 77800,
+        "72": 69200
+      }
+    },
+    {
+      "model_id": "J825GBB442.CKOR",
+      "product_name": "DIOS 얼정냉",
+      "service_type": "기본케어",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 158500,
+        "48": 127200,
+        "60": 107200,
+        "72": 94900
+      }
+    },
+    {
+      "model_id": "J825GBB142.CKOR",
+      "product_name": "DIOS 얼정냉",
+      "service_type": "기본케어",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 149000,
+        "48": 119600,
+        "60": 101500,
+        "72": 90100
+      }
+    },
+    {
+      "model_id": "J825MEE142.CKOR",
+      "product_name": "DIOS 얼정냉",
+      "service_type": "기본케어",
+      "visit_cycle": "3개월",
+      "prices": {
+        "36": 136700,
+        "48": 110100,
+        "60": 93900,
+        "72": 83500
+      }
+    },
+    {
+      "model_id": "M876SVV582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 177500,
+        "48": 138600,
+        "60": 114800,
+        "72": 98700
+      }
+    },
+    {
+      "model_id": "M876SKV582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 177500,
+        "48": 138600,
+        "60": 114800,
+        "72": 98700
+      }
+    },
+    {
+      "model_id": "M876GBB582.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 131000,
+        "60": 109100,
+        "72": 93900
+      }
+    },
+    {
+      "model_id": "M876GBB582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 131000,
+        "60": 109100,
+        "72": 93900
+      }
+    },
+    {
+      "model_id": "M876GQQ582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 131000,
+        "60": 109100,
+        "72": 93900
+      }
+    },
+    {
+      "model_id": "M876GGG582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 131000,
+        "60": 109100,
+        "72": 93900
+      }
+    },
+    {
+      "model_id": "M876GGA582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 168000,
+        "48": 131000,
+        "60": 109100,
+        "72": 93900
+      }
+    },
+    {
+      "model_id": "M876MQQ582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 158500,
+        "48": 124300,
+        "60": 103400,
+        "72": 89200
+      }
+    },
+    {
+      "model_id": "M876MNQ582S.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 158500,
+        "48": 124300,
+        "60": 103400,
+        "72": 89200
+      }
+    },
+    {
+      "model_id": "M876GBB181.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 157600,
+        "48": 122400,
+        "60": 102500,
+        "72": 88200
+      }
+    },
+    {
+      "model_id": "M876MQQ181.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M876GBB282.AKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 157600,
+        "48": 122400,
+        "60": 102500,
+        "72": 88200
+      }
+    },
+    {
+      "model_id": "S836GBB17-F.CKOR",
+      "product_name": "DIOS STEM베이직(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 90100,
+        "48": 71100,
+        "60": 60700,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "H875GBB442.CKOR",
+      "product_name": "DIOS STEM베이직",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "H875GBB141.CKOR",
+      "product_name": "DIOS STEM베이직",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 62600
+      }
+    },
+    {
+      "model_id": "H875GBC141.CKOR",
+      "product_name": "DIOS STEM베이직",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 120500,
+        "48": 93900,
+        "60": 78700,
+        "72": 68300
+      }
+    },
+    {
+      "model_id": "T875MHH141.CKOR",
+      "product_name": "DIOS STEM베이직",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 0,
+        "48": 0,
+        "60": 0,
+        "72": 55000
+      }
+    },
+    {
+      "model_id": "T875MHH042.CKOR",
+      "product_name": "DIOS STEM베이직",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 96800,
+        "48": 75900,
+        "60": 64500,
+        "72": 55900
+      }
+    },
+    {
+      "model_id": "M626SVV352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 153800,
+        "48": 120500,
+        "60": 100600,
+        "72": 86300
+      }
+    },
+    {
+      "model_id": "M626SGS352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 153800,
+        "48": 120500,
+        "60": 100600,
+        "72": 86300
+      }
+    },
+    {
+      "model_id": "M626SKV352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 153800,
+        "48": 120500,
+        "60": 100600,
+        "72": 86300
+      }
+    },
+    {
+      "model_id": "M626GBB352.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GQQ352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GGG352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GGA352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GAG352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GCB352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626GYQ352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 144300,
+        "48": 112900,
+        "60": 93900,
+        "72": 81600
+      }
+    },
+    {
+      "model_id": "M626MQQ352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 135700,
+        "48": 106300,
+        "60": 88200,
+        "72": 76800
+      }
+    },
+    {
+      "model_id": "M626MRQ352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 135700,
+        "48": 106300,
+        "60": 88200,
+        "72": 76800
+      }
+    },
+    {
+      "model_id": "M626MNQ352S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 135700,
+        "48": 106300,
+        "60": 88200,
+        "72": 76800
+      }
+    },
+    {
+      "model_id": "M626SVV052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 146200,
+        "48": 114800,
+        "60": 94900,
+        "72": 82500
+      }
+    },
+    {
+      "model_id": "M626SGS052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 146200,
+        "48": 114800,
+        "60": 94900,
+        "72": 82500
+      }
+    },
+    {
+      "model_id": "M626SKV052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 146200,
+        "48": 114800,
+        "60": 94900,
+        "72": 82500
+      }
+    },
+    {
+      "model_id": "M626GBB052.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GQQ052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GGG052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GGA052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GAG052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GCB052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GYQ052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 87300,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626MQQ052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 121500,
+        "48": 94900,
+        "60": 79700,
+        "72": 69200
+      }
+    },
+    {
+      "model_id": "M626MRQ052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 121500,
+        "48": 94900,
+        "60": 79700,
+        "72": 69200
+      }
+    },
+    {
+      "model_id": "M626MNQ052S.AKOR",
+      "product_name": "DIOS STEM베이직 Fit&Max",
+      "service_type": "라이트(고가혁_세척)",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 121500,
+        "48": 94900,
+        "60": 79700,
+        "72": 69200
+      }
+    },
+    {
+      "model_id": "M876GBB431.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 148100,
+        "48": 114800,
+        "60": 93900,
+        "72": 80600
+      }
+    },
+    {
+      "model_id": "M876GBB231.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 143300,
+        "48": 111000,
+        "60": 91100,
+        "72": 78700
+      }
+    },
+    {
+      "model_id": "M876GGA231.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 143300,
+        "48": 111000,
+        "60": 91100,
+        "72": 78700
+      }
+    },
+    {
+      "model_id": "M876GQQ231.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 143300,
+        "48": 111000,
+        "60": 91100,
+        "72": 78700
+      }
+    },
+    {
+      "model_id": "M876GBB131.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 136700,
+        "48": 106300,
+        "60": 87300,
+        "72": 74900
+      }
+    },
+    {
+      "model_id": "M876GGG132.AKOR",
+      "product_name": "DIOS 상냉장(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 131000,
+        "48": 101500,
+        "60": 83500,
+        "72": 72100
+      }
+    },
+    {
+      "model_id": "M616SVV0J1S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 136700,
+        "48": 106300,
+        "60": 87300,
+        "72": 74900
+      }
+    },
+    {
+      "model_id": "M616SKV0J1S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 136700,
+        "48": 106300,
+        "60": 87300,
+        "72": 74900
+      }
+    },
+    {
+      "model_id": "M616GBB0J1.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 79700,
+        "72": 68300
+      }
+    },
+    {
+      "model_id": "M616GQQ0J1.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 79700,
+        "72": 68300
+      }
+    },
+    {
+      "model_id": "M616GGG0J1S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 79700,
+        "72": 68300
+      }
+    },
+    {
+      "model_id": "M616MQQ0J1S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 112000,
+        "48": 87300,
+        "60": 72100,
+        "72": 61600
+      }
+    },
+    {
+      "model_id": "M616MNQ0J1S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 112000,
+        "48": 87300,
+        "60": 72100,
+        "72": 61600
+      }
+    },
+    {
+      "model_id": "S836GBB142.CKOR",
+      "product_name": "DIOS 양문형(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 80600,
+        "48": 63500,
+        "60": 53100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "S836MQQ142.CKOR",
+      "product_name": "DIOS 양문형(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 73000,
+        "48": 56900,
+        "60": 47400,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "S656GBB143.CKOR",
+      "product_name": "DIOS 양문형(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 82500,
+        "48": 64500,
+        "60": 54000,
+        "72": 46400
+      }
+    },
+    {
+      "model_id": "M874GNN3A1.AKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 191800,
+        "48": 147100,
+        "60": 121500,
+        "72": 103400
+      }
+    },
+    {
+      "model_id": "M874GNN0A1.AKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 182300,
+        "48": 140500,
+        "60": 115800,
+        "72": 98700
+      }
+    },
+    {
+      "model_id": "M624GNN3A2.AKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 191800,
+        "48": 147100,
+        "60": 121500,
+        "72": 103400
+      }
+    },
+    {
+      "model_id": "M624GNN0A2.AKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 182300,
+        "48": 140500,
+        "60": 115800,
+        "72": 98700
+      }
+    },
+    {
+      "model_id": "H875GBB111.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "H875GBB031.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 104400,
+        "48": 80600,
+        "60": 66400,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "H875GBB012.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 93000,
+        "48": 72100,
+        "60": 59700,
+        "72": 51200
+      }
+    },
+    {
+      "model_id": "H875GCB012.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 93000,
+        "48": 72100,
+        "60": 59700,
+        "72": 51200
+      }
+    },
+    {
+      "model_id": "T875MHH412.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 96800,
+        "48": 74900,
+        "60": 61600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "T875MEE012.CKOR",
+      "product_name": "DIOS 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 69200,
+        "48": 54000,
+        "60": 44500,
+        "72": 38800
+      }
+    },
+    {
+      "model_id": "S834MEE141.CKOR",
+      "product_name": "DIOS 양문형",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 77800,
+        "48": 60700,
+        "60": 50200,
+        "72": 43600
+      }
+    },
+    {
+      "model_id": "S834MQQ141.CKOR",
+      "product_name": "DIOS 양문형",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 77800,
+        "48": 60700,
+        "60": 50200,
+        "72": 43600
+      }
+    },
+    {
+      "model_id": "M626SVV332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 138600,
+        "48": 107200,
+        "60": 88200,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626SGS332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 138600,
+        "48": 107200,
+        "60": 88200,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626SKV332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 138600,
+        "48": 107200,
+        "60": 88200,
+        "72": 75900
+      }
+    },
+    {
+      "model_id": "M626GBB332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GQQ332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GGG332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GGA332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GAG332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GCB332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626GYQ332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 129100,
+        "48": 99600,
+        "60": 82500,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "M626MQQ332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 119600,
+        "48": 93000,
+        "60": 76800,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "M626MRQ332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 119600,
+        "48": 93000,
+        "60": 76800,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "M626MNQ332S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 119600,
+        "48": 93000,
+        "60": 76800,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "M626SVV032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 131000,
+        "48": 101500,
+        "60": 83500,
+        "72": 71100
+      }
+    },
+    {
+      "model_id": "M626SGS032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 131000,
+        "48": 101500,
+        "60": 83500,
+        "72": 71100
+      }
+    },
+    {
+      "model_id": "M626SKV032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 131000,
+        "48": 101500,
+        "60": 83500,
+        "72": 71100
+      }
+    },
+    {
+      "model_id": "M626GBB032.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GQQ032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GGG032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GGA032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GAG032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GCB032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626GYQ032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 118600,
+        "48": 92000,
+        "60": 75900,
+        "72": 64500
+      }
+    },
+    {
+      "model_id": "M626MQQ032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "M626MRQ032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "M626MNQ032S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "M626GBB022S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 96800,
+        "48": 74900,
+        "60": 62600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "M626GGA022S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 96800,
+        "48": 74900,
+        "60": 62600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "M626GAG022S.AKOR",
+      "product_name": "DIOS 상냉장 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 96800,
+        "48": 74900,
+        "60": 62600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "Z495SLL271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 132900,
+        "48": 103400,
+        "60": 85400,
+        "72": 74000
+      }
+    },
+    {
+      "model_id": "Z495SVV271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 133800,
+        "48": 104400,
+        "60": 86300,
+        "72": 74900
+      }
+    },
+    {
+      "model_id": "Z495GBB271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 80600,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "Z495GCB271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 80600,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "Z495GQQ271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 80600,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "Z495GGA271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 124300,
+        "48": 96800,
+        "60": 80600,
+        "72": 70200
+      }
+    },
+    {
+      "model_id": "Z495MQQ271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 116700,
+        "48": 91100,
+        "60": 75900,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "Z495MWW271.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 116700,
+        "48": 91100,
+        "60": 75900,
+        "72": 65400
+      }
+    },
+    {
+      "model_id": "Z495GBB212.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 111000,
+        "48": 86300,
+        "60": 72100,
+        "72": 62600
+      }
+    },
+    {
+      "model_id": "Z495GGG212.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 111000,
+        "48": 86300,
+        "60": 72100,
+        "72": 62600
+      }
+    },
+    {
+      "model_id": "Z490MEEF11.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 93900,
+        "48": 73000,
+        "60": 61600,
+        "72": 53100
+      }
+    },
+    {
+      "model_id": "Z490MPSF12.AKOR",
+      "product_name": "김치냉장고 김치냉장고(퓨어 프레시)",
+      "service_type": "라이트",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 90100,
+        "48": 71100,
+        "60": 59700,
+        "72": 51200
+      }
+    },
+    {
+      "model_id": "Z331GNN153.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 135700,
+        "48": 104400,
+        "60": 86300,
+        "72": 74000
+      }
+    },
+    {
+      "model_id": "Z564GBB343.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 116700,
+        "48": 90100,
+        "60": 74900,
+        "72": 63500
+      }
+    },
+    {
+      "model_id": "Z509MEEF33.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 79700,
+        "48": 61600,
+        "60": 51200,
+        "72": 44500
+      }
+    },
+    {
+      "model_id": "Z509MHHF23.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 74900,
+        "48": 57800,
+        "60": 48300,
+        "72": 41700
+      }
+    },
+    {
+      "model_id": "Z323MEF.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 50200,
+        "48": 38800,
+        "60": 33100,
+        "72": 28400
+      }
+    },
+    {
+      "model_id": "Z225MEE151.AKOR",
+      "product_name": "김치냉장고 김치냉장고 뚜껑",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 48300,
+        "48": 38800,
+        "60": 33100,
+        "72": 28400
+      }
+    },
+    {
+      "model_id": "K225MB131.AKOR",
+      "product_name": "김치냉장고 김치냉장고 뚜껑",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 45500,
+        "48": 36000,
+        "60": 31200,
+        "72": 27400
+      }
+    },
+    {
+      "model_id": "K225LW121.AKOR",
+      "product_name": "김치냉장고 김치냉장고 뚜껑",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 40700,
+        "48": 33100,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "Z135MEE123.AKOR",
+      "product_name": "김치냉장고 김치냉장고 뚜껑",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 29300,
+        "48": 23600,
+        "60": 20800,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "K135SS123.AKOR",
+      "product_name": "김치냉장고 김치냉장고 뚜껑",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 27400,
+        "48": 22700,
+        "60": 19800,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "Z484SGS172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 113900,
+        "48": 88200,
+        "60": 73000,
+        "72": 62600
+      }
+    },
+    {
+      "model_id": "Z484SVV172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 113900,
+        "48": 88200,
+        "60": 73000,
+        "72": 62600
+      }
+    },
+    {
+      "model_id": "Z484GBB172.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484GCB172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484GGG172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484GAG172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484GGA172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484GQQ172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 106300,
+        "48": 82500,
+        "60": 67300,
+        "72": 57800
+      }
+    },
+    {
+      "model_id": "Z484MQQ172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 97700,
+        "48": 75900,
+        "60": 62600,
+        "72": 54000
+      }
+    },
+    {
+      "model_id": "Z484MRR172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 97700,
+        "48": 75900,
+        "60": 62600,
+        "72": 54000
+      }
+    },
+    {
+      "model_id": "Z484MNR172S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 97700,
+        "48": 75900,
+        "60": 62600,
+        "72": 54000
+      }
+    },
+    {
+      "model_id": "Z334SGS171.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 94900,
+        "48": 74000,
+        "60": 60700,
+        "72": 52100
+      }
+    },
+    {
+      "model_id": "Z334SVV171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 94900,
+        "48": 74000,
+        "60": 60700,
+        "72": 52100
+      }
+    },
+    {
+      "model_id": "Z334GBB171.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 89200,
+        "48": 69200,
+        "60": 56900,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "Z334GCB171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 89200,
+        "48": 69200,
+        "60": 56900,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "Z334GGG171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 89200,
+        "48": 69200,
+        "60": 56900,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "Z334GGA171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 89200,
+        "48": 69200,
+        "60": 56900,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "Z334GQQ171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 89200,
+        "48": 69200,
+        "60": 56900,
+        "72": 49300
+      }
+    },
+    {
+      "model_id": "Z334MQQ171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 82500,
+        "48": 64500,
+        "60": 53100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "Z334MNR171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 82500,
+        "48": 64500,
+        "60": 53100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "Z334MRR171S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 82500,
+        "48": 64500,
+        "60": 53100,
+        "72": 45500
+      }
+    },
+    {
+      "model_id": "Z330MEEF21.AKOR",
+      "product_name": "김치냉장고 김치냉장고 스탠드 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 68300,
+        "48": 53100,
+        "60": 44500,
+        "72": 38800
+      }
+    },
+    {
+      "model_id": "Q343GIB183.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIP183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIC183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIL183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIH183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIN183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIY183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q343GIW183S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Q342GBB153.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GPP153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GPB153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GPC153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GCC153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GCB153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GLL153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GHH153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GNN153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GYY153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "Q342GWW153S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 54000,
+        "48": 42600,
+        "60": 36000,
+        "72": 31200
+      }
+    },
+    {
+      "model_id": "X324SS7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "X324SM7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "X324SV7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "X324GB7.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "X324GH7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "X324GN7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "X324GQ7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "X324GG7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 58800,
+        "48": 46400,
+        "60": 38800,
+        "72": 33100
+      }
+    },
+    {
+      "model_id": "X324SS7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "X324SM7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "X324SV7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 63500,
+        "48": 50200,
+        "60": 41700,
+        "72": 36000
+      }
+    },
+    {
+      "model_id": "Y324SS7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Y324SM7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Y324SV7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Y324GB7.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 62600,
+        "48": 48300,
+        "60": 40700,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "Y324GH7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 62600,
+        "48": 48300,
+        "60": 40700,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "Y324GN7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 62600,
+        "48": 48300,
+        "60": 40700,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "Y324GQ7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 62600,
+        "48": 48300,
+        "60": 40700,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "Y324GG7S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 62600,
+        "48": 48300,
+        "60": 40700,
+        "72": 35000
+      }
+    },
+    {
+      "model_id": "Y324SS7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Y324SM7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Y324SV7SK.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324SS7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Z324SM7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Z324SV7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Z324GB7.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324GH7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324GN7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324GQ7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324GG7S.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 67300,
+        "48": 52100,
+        "60": 43600,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "Z324SS7SK.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Z324SM7SK.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Z324SV7SK.AKOR",
+      "product_name": "김치냉장고 김치냉장고 컨버터블 Fit&Max",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 71100,
+        "48": 55900,
+        "60": 46400,
+        "72": 39800
+      }
+    },
+    {
+      "model_id": "Q344GIN493.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지 무드업",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 92000,
+        "48": 71100,
+        "60": 58800,
+        "72": 51200
+      }
+    },
+    {
+      "model_id": "Q343MEEF53.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 40700,
+        "48": 32200,
+        "60": 27400,
+        "72": 23600
+      }
+    },
+    {
+      "model_id": "Q343MHHF33.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 38800,
+        "48": 31200,
+        "60": 25500,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "Q343MPSF33.AKOR",
+      "product_name": "일반냉장고 일반냉장고 모던엣지",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 36900,
+        "48": 29300,
+        "60": 24600,
+        "72": 21700
+      }
+    },
+    {
+      "model_id": "M451SS53.AKOR",
+      "product_name": "일반냉장고 일반냉장고 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 45500,
+        "48": 36000,
+        "60": 30300,
+        "72": 26500
+      }
+    },
+    {
+      "model_id": "M344MB14.AKOR",
+      "product_name": "일반냉장고 일반냉장고 상냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 34100,
+        "48": 27400,
+        "60": 22700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "D604MEE52.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 43600,
+        "48": 34100,
+        "60": 29300,
+        "72": 25500
+      }
+    },
+    {
+      "model_id": "D502MEE53.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 36900,
+        "48": 29300,
+        "60": 24600,
+        "72": 21700
+      }
+    },
+    {
+      "model_id": "B502S53.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 34100,
+        "48": 27400,
+        "60": 22700,
+        "72": 19800
+      }
+    },
+    {
+      "model_id": "D315MPS31.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 31200,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "D312MBE31.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 31200,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "D312MCT31.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 31200,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "D312MCK31.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 31200,
+        "48": 24600,
+        "60": 20800,
+        "72": 18900
+      }
+    },
+    {
+      "model_id": "B312S31.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 28400,
+        "48": 22700,
+        "60": 18900,
+        "72": 17000
+      }
+    },
+    {
+      "model_id": "D265MEE22.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 26500,
+        "48": 21700,
+        "60": 18900,
+        "72": 17000
+      }
+    },
+    {
+      "model_id": "B182DS13.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 22700,
+        "48": 18900,
+        "60": 17000,
+        "72": 15100
+      }
+    },
+    {
+      "model_id": "B182W13.AKOR",
+      "product_name": "일반냉장고 일반냉장고 하냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 21700,
+        "48": 17900,
+        "60": 16000,
+        "72": 14100
+      }
+    },
+    {
+      "model_id": "R321S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 냉장",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 37900,
+        "48": 30300,
+        "60": 25500,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "A320S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 컨버터블 냉동",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 40700,
+        "48": 33100,
+        "60": 27400,
+        "72": 24600
+      }
+    },
+    {
+      "model_id": "A202S.AKOR",
+      "product_name": "일반냉장고 일반냉장고 냉동고",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 26500,
+        "48": 21700,
+        "60": 18900,
+        "72": 17000
+      }
+    },
+    {
+      "model_id": "A202W.AKOR",
+      "product_name": "일반냉장고 일반냉장고 냉동고",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 25500,
+        "48": 20800,
+        "60": 17900,
+        "72": 16000
+      }
+    },
+    {
+      "model_id": "R1081SVV357.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 263900,
+        "48": 198600,
+        "60": 164500,
+        "72": 137600
+      }
+    },
+    {
+      "model_id": "R1081GBB357.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 246800,
+        "48": 185700,
+        "60": 152500,
+        "72": 128600
+      }
+    },
+    {
+      "model_id": "R1081GGA357.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 246800,
+        "48": 185700,
+        "60": 152500,
+        "72": 128600
+      }
+    },
+    {
+      "model_id": "R1081GAG357.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 246800,
+        "48": 185700,
+        "60": 152500,
+        "72": 128600
+      }
+    },
+    {
+      "model_id": "R1081SVV057.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 256300,
+        "48": 193100,
+        "60": 159000,
+        "72": 134000
+      }
+    },
+    {
+      "model_id": "R1081GBB057.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 236300,
+        "48": 177400,
+        "60": 146100,
+        "72": 123200
+      }
+    },
+    {
+      "model_id": "R1081GGA057.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 236300,
+        "48": 177400,
+        "60": 146100,
+        "72": 123200
+      }
+    },
+    {
+      "model_id": "R1081GAG057.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 236300,
+        "48": 177400,
+        "60": 146100,
+        "72": 123200
+      }
+    },
+    {
+      "model_id": "R925GBB357.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 229700,
+        "48": 172900,
+        "60": 142500,
+        "72": 120500
+      }
+    },
+    {
+      "model_id": "R925GBB057.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "라이트+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 219200,
+        "48": 164600,
+        "60": 136000,
+        "72": 115100
+      }
+    },
+    {
+      "model_id": "R1093GBB337.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 231600,
+        "48": 172800,
+        "60": 141400,
+        "72": 117800
+      }
+    },
+    {
+      "model_id": "R1093GGA337.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 231600,
+        "48": 172800,
+        "60": 141400,
+        "72": 117800
+      }
+    },
+    {
+      "model_id": "R1093GAG337.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 231600,
+        "48": 172800,
+        "60": 141400,
+        "72": 117800
+      }
+    },
+    {
+      "model_id": "R1093GBB037.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 221100,
+        "48": 165300,
+        "60": 135000,
+        "72": 112300
+      }
+    },
+    {
+      "model_id": "R1093GGA037.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 221100,
+        "48": 165300,
+        "60": 135000,
+        "72": 112300
+      }
+    },
+    {
+      "model_id": "R1093GAG037.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 221100,
+        "48": 165300,
+        "60": 135000,
+        "72": 112300
+      }
+    },
+    {
+      "model_id": "R1093GBB022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 172700,
+        "48": 128600,
+        "60": 106400,
+        "72": 88900
+      }
+    },
+    {
+      "model_id": "R1093GGA022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 172700,
+        "48": 128600,
+        "60": 106400,
+        "72": 88900
+      }
+    },
+    {
+      "model_id": "R1093GAG022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 172700,
+        "48": 128600,
+        "60": 106400,
+        "72": 88900
+      }
+    },
+    {
+      "model_id": "R937GBB337.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 214500,
+        "48": 159900,
+        "60": 131300,
+        "72": 109700
+      }
+    },
+    {
+      "model_id": "R937GBB037.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 204000,
+        "48": 152500,
+        "60": 125000,
+        "72": 104300
+      }
+    },
+    {
+      "model_id": "R937GBB022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 162200,
+        "48": 121200,
+        "60": 100000,
+        "72": 83500
+      }
+    },
+    {
+      "model_id": "R937GGA022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 162200,
+        "48": 121200,
+        "60": 100000,
+        "72": 83500
+      }
+    },
+    {
+      "model_id": "R937GAG022.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "스탠다드",
+      "visit_cycle": "30개월",
+      "prices": {
+        "36": 162200,
+        "48": 121200,
+        "60": 100000,
+        "72": 83500
+      }
+    },
+    {
+      "model_id": "R1089GBB0J7.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 226800,
+        "48": 170000,
+        "60": 138700,
+        "72": 115900
+      }
+    },
+    {
+      "model_id": "R1089GGA0J7.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 226800,
+        "48": 170000,
+        "60": 138700,
+        "72": 115900
+      }
+    },
+    {
+      "model_id": "R1089GBB0M2.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 185000,
+        "48": 138700,
+        "60": 113800,
+        "72": 96100
+      }
+    },
+    {
+      "model_id": "R1089GGA0M2.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 185000,
+        "48": 138700,
+        "60": 113800,
+        "72": 96100
+      }
+    },
+    {
+      "model_id": "R933GBB0J7.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 209700,
+        "48": 157200,
+        "60": 128600,
+        "72": 107900
+      }
+    },
+    {
+      "model_id": "R933GBB0M2.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 174600,
+        "48": 131300,
+        "60": 107300,
+        "72": 90700
+      }
+    },
+    {
+      "model_id": "R933GGA0M2.AKOR",
+      "product_name": "PTO 상냉장+김냉 PTO",
+      "service_type": "프리미엄+스탠다드",
+      "visit_cycle": "12+30",
+      "prices": {
+        "36": 174600,
+        "48": 131300,
+        "60": 107300,
+        "72": 90700
+      }
+    }
+  ]
+}

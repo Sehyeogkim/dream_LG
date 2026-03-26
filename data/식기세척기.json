@@ -1,0 +1,20 @@
+{
+  "category": "식기세척기",
+  "sheet_name": "식기세척기",
+  "count": 1,
+  "products": [
+    {
+      "model_id": "식기세척기",
+      "product_name": "",
+      "category_sub": "W826SVV482S.AKOR",
+      "size": "",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 6,
+        "48": 63400,
+        "60": 50700,
+        "72": 189352
+      }
+    }
+  ]
+}

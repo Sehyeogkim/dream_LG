@@ -1,0 +1,33 @@
+{
+  "category": "공기청정가습기",
+  "sheet_name": "공청가습기",
+  "count": 2,
+  "products": [
+    {
+      "model_id": "HY705RSUABM.AKOR",
+      "product_name": "하이드로타워 (5평)",
+      "category_sub": "가습기",
+      "size": "5평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 57900,
+        "48": 49900,
+        "60": 42900,
+        "72": 37900
+      }
+    },
+    {
+      "model_id": "HY505RWLL.AKOR",
+      "product_name": "하이드로에센셜 (5평)",
+      "category_sub": "가습기",
+      "size": "5평",
+      "visit_cycle": "방문없음",
+      "prices": {
+        "36": 48900,
+        "48": 40900,
+        "60": 35900,
+        "72": 32900
+      }
+    }
+  ]
+}

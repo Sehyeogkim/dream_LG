@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>(주)드림정보시스템 - LG 렌탈샵</title>
+  <title>(주)드림정보시스템 - LG 가전구독</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,16 +15,15 @@
         <img src="images/lg-logo.svg" alt="LG전자 로고" class="logo-img" />
         <div class="logo-text">
           <span class="company-name">(주)드림정보시스템</span>
-          <span class="company-sub">LG 렌탈샵</span>
+          <span class="company-sub">LG 가전구독 B2B 단체</span>
         </div>
       </div>
-      <div class="header-slogan">
-        <span>광주·전남 최대 LG전자 렌탈 파트너</span>
+      <div class="header-search">
+        <input type="text" id="searchInput" class="search-input" placeholder="모델명 또는 제품명 검색..." />
       </div>
       <div class="header-contact">
         <span>상담 문의</span>
         <a href="tel:010-0000-0000" class="phone">010-0000-0000</a>
-        <span class="address">광주광역시 북구 설주로 291번길 26-4</span>
       </div>
     </div>
   </header>
@@ -33,11 +32,11 @@
   <div class="layout">
 
     <!-- 사이드바 -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <h2 class="sidebar-title">제품 카테고리</h2>
       <nav>
         <ul class="category-list" id="categoryList">
-          <!-- JS로 동적 렌더링 -->
+          <!-- JS 동적 렌더링 -->
         </ul>
       </nav>
     </aside>
@@ -47,9 +46,17 @@
       <div class="content-header">
         <h1 class="category-title" id="categoryTitle">전체 제품</h1>
         <span class="product-count" id="productCount"></span>
+        <div class="sort-controls">
+          <select id="sortSelect" class="sort-select">
+            <option value="default">기본 정렬</option>
+            <option value="price-asc">가격 낮은순</option>
+            <option value="price-desc">가격 높은순</option>
+            <option value="name-asc">이름순</option>
+          </select>
+        </div>
       </div>
       <div class="product-grid" id="productGrid">
-        <!-- JS로 렌더링 -->
+        <!-- JS 렌더링 -->
       </div>
     </main>
 
@@ -57,15 +64,26 @@
 
   <!-- 푸터 -->
   <footer class="site-footer">
-    <p>(주)드림정보시스템 | LG전자 공식 렌탈 서비스 | 문의: 010-0000-0000</p>
+    <p>(주)드림정보시스템 | LG전자 공식 가전구독 B2B 서비스 | 문의: 010-0000-0000</p>
+    <p class="footer-update" id="footerUpdate"></p>
   </footer>
 
-  <!-- 견적문의 모달 -->
-  <div class="modal-overlay" id="modalOverlay">
-    <div class="modal-container">
-      <button class="modal-close" id="modalClose">&times;</button>
+  <!-- 제품 상세 모달 -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal-container modal-detail">
+      <button class="modal-close" id="detailModalClose">&times;</button>
+      <div id="detailModalContent">
+        <!-- JS 렌더링 -->
+      </div>
+    </div>
+  </div>
 
-      <div id="modal-form-section">
+  <!-- 견적문의 모달 -->
+  <div class="modal-overlay" id="quoteModal">
+    <div class="modal-container">
+      <button class="modal-close" id="quoteModalClose">&times;</button>
+
+      <div id="quote-form-section">
         <h2 class="modal-title">견적문의</h2>
         <p class="modal-desc">
           원하시는 제품과 연락처를 남겨주시면,<br>
@@ -98,65 +116,44 @@
 
           <div class="modal-form-group">
             <label class="modal-form-label">관심 제품 <span class="modal-required">*</span></label>
-            <select class="modal-form-select" name="product" id="modalProductSelect" required>
+            <select class="modal-form-select" name="product" id="quoteProductSelect" required>
               <option value="" disabled selected>제품을 선택해주세요</option>
-              <option value="냉장고">냉장고</option>
-              <option value="에어컨">에어컨</option>
-              <option value="공기청정기">공기청정기</option>
-              <option value="TV">TV</option>
-              <option value="세탁기/워시타워">세탁기/워시타워</option>
-              <option value="청소기">청소기</option>
-              <option value="스타일러">스타일러</option>
-              <option value="노트북">노트북</option>
-              <option value="기타">기타 (아래 메모에 작성)</option>
-            </select>
-          </div>
-
-          <div class="modal-form-group">
-            <label class="modal-form-label">렌탈 희망 기간</label>
-            <select class="modal-form-select" name="duration">
-              <option value="" disabled selected>기간을 선택해주세요</option>
-              <option value="1개월 미만 (단기)">1개월 미만 (단기)</option>
-              <option value="1~6개월">1~6개월</option>
-              <option value="6~12개월">6~12개월</option>
-              <option value="12개월 이상 (장기)">12개월 이상 (장기)</option>
-              <option value="미정">아직 미정</option>
             </select>
           </div>
 
           <div class="modal-form-group">
             <label class="modal-form-label">수량</label>
             <select class="modal-form-select" name="quantity">
-              <option value="1대">1대</option>
-              <option value="2~5대">2~5대</option>
-              <option value="6~10대">6~10대</option>
-              <option value="10대 이상">10대 이상 (대량)</option>
+              <option value="2~3대">2~3대</option>
+              <option value="4~9대">4~9대</option>
+              <option value="10~29대">10~29대</option>
+              <option value="30대 이상">30대 이상</option>
             </select>
           </div>
 
           <div class="modal-form-group">
             <label class="modal-form-label">추가 요청사항</label>
-            <textarea class="modal-form-textarea" name="message" id="modalMessage" placeholder="원하시는 모델명, 사양, 배송 일정 등을 자유롭게 적어주세요."></textarea>
+            <textarea class="modal-form-textarea" name="message" id="quoteMessage" placeholder="원하시는 모델명, 사양, 배송 일정 등을 자유롭게 적어주세요."></textarea>
           </div>
 
           <div class="modal-divider"></div>
 
           <div class="modal-form-group">
             <div class="modal-checkbox-row">
-              <input type="checkbox" id="modalPrivacy" required>
-              <label class="modal-checkbox-text" for="modalPrivacy">
+              <input type="checkbox" id="quotePrivacy" required>
+              <label class="modal-checkbox-text" for="quotePrivacy">
                 견적 상담을 위한 <strong>개인정보 수집 및 이용</strong>에 동의합니다.
                 (수집항목: 이름, 연락처 / 보유기간: 상담 완료 후 30일)
               </label>
             </div>
           </div>
 
-          <button type="submit" class="modal-submit-btn" id="modal-submit-btn">견적문의 보내기</button>
+          <button type="submit" class="modal-submit-btn" id="quote-submit-btn">견적문의 보내기</button>
         </form>
       </div>
 
       <!-- 전송 성공 -->
-      <div class="modal-success" id="modal-success-section">
+      <div class="modal-success" id="quote-success-section">
         <div class="modal-success-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" width="32" height="32"><path d="M20 6L9 17l-5-5"/></svg>
         </div>
@@ -165,11 +162,19 @@
           영업일 기준 24시간 이내에 연락드리겠습니다.<br>
           빠른 상담을 원하시면 카카오톡 채널로 문의해주세요.
         </div>
-        <button class="modal-back-btn" id="modalResetBtn">다른 제품도 문의하기</button>
+        <button class="modal-back-btn" id="quoteResetBtn">다른 제품도 문의하기</button>
       </div>
 
     </div>
   </div>
+
+  <!-- 모바일 카테고리 토글 -->
+  <button class="mobile-category-toggle" id="mobileCategoryToggle">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+      <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+    카테고리
+  </button>
 
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js"></script>

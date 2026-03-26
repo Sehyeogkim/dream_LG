@@ -1,0 +1,124 @@
+{
+  "category": "TV",
+  "sheet_name": "TV",
+  "count": 13,
+  "products": [
+    {
+      "model_id": "86NA1C90AKA.AKRD",
+      "product_name": "86인치 나노셀",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 47600,
+        "72": 40600
+      }
+    },
+    {
+      "model_id": "75NA1C90AKA.AKRD",
+      "product_name": "75인치 나노셀",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 36300,
+        "72": 31100
+      }
+    },
+    {
+      "model_id": "65NA1C90AKA.AKRD",
+      "product_name": "65인치 나노셀",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 26600,
+        "72": 22600
+      }
+    },
+    {
+      "model_id": "50NA1C90AKA.AKRD",
+      "product_name": "50인치 나노셀",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 19200,
+        "72": 16300
+      }
+    },
+    {
+      "model_id": "43NA1C90AKA.AKRD",
+      "product_name": "43인치 나노셀",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 15700,
+        "72": 13300
+      }
+    },
+    {
+      "model_id": "27LX5QKNA.AKR",
+      "product_name": "스탠바이미2",
+      "install_type": "스탠드",
+      "prices": {
+        "60": 31200,
+        "72": 26500
+      }
+    },
+    {
+      "model_id": "86UT931C0NA.AKRD",
+      "product_name": "스탠바이미GO",
+      "install_type": "스탠드",
+      "prices": {
+        "60": 28200,
+        "72": 23900
+      }
+    },
+    {
+      "model_id": "86UT931C0NA.AKRD",
+      "product_name": "86인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 50200,
+        "72": 42600
+      }
+    },
+    {
+      "model_id": "75UT931C0NA.AKRD",
+      "product_name": "75인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 37900,
+        "72": 32200
+      }
+    },
+    {
+      "model_id": "65UT931C0NA.AKRD",
+      "product_name": "65인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 27400,
+        "72": 22700
+      }
+    },
+    {
+      "model_id": "55UT931C0NA.AKRD",
+      "product_name": "55인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 20800,
+        "72": 17900
+      }
+    },
+    {
+      "model_id": "50UT931C0NA.AKRD",
+      "product_name": "50인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 18900,
+        "72": 16000
+      }
+    },
+    {
+      "model_id": "43UT931C0NA.AKRD",
+      "product_name": "43인치 UHD",
+      "install_type": "스탠드/벽걸이",
+      "prices": {
+        "60": 15100,
+        "72": 13200
+      }
+    }
+  ]
+}

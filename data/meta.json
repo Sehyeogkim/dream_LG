@@ -1,0 +1,84 @@
+{
+  "updated": "2026-03-25",
+  "total_count": 520,
+  "categories": [
+    {
+      "name": "공기청정기",
+      "sheet_name": "공청기",
+      "file": "공청기.json",
+      "count": 15
+    },
+    {
+      "name": "공기청정가습기",
+      "sheet_name": "공청가습기",
+      "file": "공청가습기.json",
+      "count": 2
+    },
+    {
+      "name": "제습기",
+      "sheet_name": "제습기",
+      "file": "제습기.json",
+      "count": 3
+    },
+    {
+      "name": "TV",
+      "sheet_name": "TV",
+      "file": "TV.json",
+      "count": 13
+    },
+    {
+      "name": "스타일러/슈케어",
+      "sheet_name": "스타일러,슈케어",
+      "file": "스타일러,슈케어.json",
+      "count": 23
+    },
+    {
+      "name": "안마의자",
+      "sheet_name": "안마의자",
+      "file": "안마의자.json",
+      "count": 8
+    },
+    {
+      "name": "벽걸이에어컨",
+      "sheet_name": "벽걸이에어컨",
+      "file": "벽걸이에어컨.json",
+      "count": 46
+    },
+    {
+      "name": "세탁기/건조기",
+      "sheet_name": "세탁기,건조기",
+      "file": "세탁기,건조기.json",
+      "count": 113
+    },
+    {
+      "name": "냉장고",
+      "sheet_name": "냉장고",
+      "file": "냉장고.json",
+      "count": 262
+    },
+    {
+      "name": "상업용에어컨",
+      "sheet_name": "상업용에어컨",
+      "file": "상업용에어컨.json",
+      "count": 29
+    },
+    {
+      "name": "식기세척기",
+      "sheet_name": "식기세척기",
+      "file": "식기세척기.json",
+      "count": 1
+    },
+    {
+      "name": "전기레인지",
+      "sheet_name": "전기레인지",
+      "file": "전기레인지.json",
+      "count": 1
+    },
+    {
+      "name": "광파오븐",
+      "sheet_name": "광파오븐",
+      "file": "광파오븐.json",
+      "count": 4
+    }
+  ]
+}
