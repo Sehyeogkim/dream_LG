@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-25",
-  "total_count": 520,
+  "updated": "2026-03-26",
+  "total_count": 540,
   "categories": [
     {
       "name": "공기청정기",
@@ -18,7 +18,7 @@
       "name": "제습기",
       "sheet_name": "제습기",
       "file": "제습기.json",
-      "count": 3
+      "count": 2
     },
     {
       "name": "TV",
@@ -66,13 +66,13 @@
       "name": "식기세척기",
       "sheet_name": "식기세척기",
       "file": "식기세척기.json",
-      "count": 1
+      "count": 4
     },
     {
       "name": "전기레인지",
       "sheet_name": "전기레인지",
       "file": "전기레인지.json",
-      "count": 1
+      "count": 19
     },
     {
       "name": "광파오븐",
@@ -321,44 +321,26 @@
       "category": "공기청정가습기"
     },
     {
-      "model_id": "6",
-      "product_name": "DQ185MWGAWS.AKOR (35900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "35900",
-      "visit_cycle": "34100개월",
+      "model_id": "DQ235MWGAWS.AKOR",
+      "product_name": "제습기 (모하비 23리터)",
+      "visit_cycle": "12개월",
       "prices": {
-        "36": 136400,
-        "48": 151500,
-        "60": 164000,
-        "72": 173600
+        "36": 36900,
+        "48": 29300,
+        "60": 25500,
+        "72": 22700
       },
       "category": "제습기"
     },
     {
-      "model_id": "12",
-      "product_name": "DQ185MWGAWS.AKOR (33900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "33900",
-      "visit_cycle": "32200개월",
+      "model_id": "DQ185MWGAWS.AKOR",
+      "product_name": "제습기 (모하비 18리터)",
+      "visit_cycle": "12개월",
       "prices": {
-        "36": 128800,
-        "48": 141300,
-        "60": 151300,
-        "72": 158400
-      },
-      "category": "제습기"
-    },
-    {
-      "model_id": "3",
-      "product_name": "DQ185MWGAWS.AKOR (40900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "40900",
-      "visit_cycle": "38800개월",
-      "prices": {
-        "36": 155200,
-        "48": 176500,
-        "60": 195300,
-        "72": 212000
+        "36": 32200,
+        "48": 26500,
+        "60": 22700,
+        "72": 19800
       },
       "category": "제습기"
     },
@@ -6670,30 +6652,301 @@
       "category": "상업용에어컨"
     },
     {
-      "model_id": "식기세척기",
-      "product_name": "",
-      "category_sub": "W826SVV482S.AKOR",
-      "size": "",
-      "visit_cycle": "방문없음",
+      "model_id": "DEE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
       "prices": {
-        "36": 6,
-        "48": 63400,
+        "36": 76300,
+        "48": 60300,
         "60": 50700,
-        "72": 189352
+        "72": 44200
       },
       "category": "식기세척기"
     },
     {
-      "model_id": "전기레인지",
-      "product_name": "",
-      "category_sub": "W826SVV482S.AKOR",
-      "size": "",
-      "visit_cycle": "방문없음",
+      "model_id": "DEE6EWE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
       "prices": {
-        "36": 6,
-        "48": 56200,
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
+      },
+      "category": "식기세척기"
+    },
+    {
+      "model_id": "DFE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
+      },
+      "category": "식기세척기"
+    },
+    {
+      "model_id": "DUE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
+      },
+      "category": "식기세척기"
+    },
+    {
+      "model_id": "BEI3ANHLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 66200,
+        "48": 53400,
         "60": 45700,
-        "72": 174358
+        "72": 40700
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ANBLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 66200,
+        "48": 53400,
+        "60": 45700,
+        "72": 40700
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ANPLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 66200,
+        "48": 53400,
+        "60": 45700,
+        "72": 40700
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ABWLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 64600,
+        "48": 52200,
+        "60": 44600,
+        "72": 38900
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEY3MSE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 49100,
+        "48": 40000,
+        "60": 34500,
+        "72": 30900
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEY3GS2E.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 45100,
+        "48": 36700,
+        "60": 31800,
+        "72": 28400
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3AMB4E.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 70900,
+        "48": 56700,
+        "60": 48100,
+        "72": 42400
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ANHLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 71600,
+        "48": 57800,
+        "60": 49400,
+        "72": 43900
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ASMLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 68400,
+        "48": 54600,
+        "60": 46200,
+        "72": 40700
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ABBLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 61700,
+        "48": 49400,
+        "60": 41800,
+        "72": 36100
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ASMLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 60800,
+        "48": 48100,
+        "60": 40400,
+        "72": 35400
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ASS4E.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 57900,
+        "48": 46200,
+        "60": 39300,
+        "72": 34600
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3AMB4E.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 63300,
+        "48": 50200,
+        "60": 42400,
+        "72": 37100
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEI3ASB4E.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 56300,
+        "48": 44600,
+        "60": 37700,
+        "72": 33000
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ANBLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 68700,
+        "48": 55000,
+        "60": 46600,
+        "72": 41100
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ANPLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 68700,
+        "48": 55000,
+        "60": 46600,
+        "72": 41100
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ANSLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 68700,
+        "48": 55000,
+        "60": 46600,
+        "72": 41100
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ABWLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 66500,
+        "48": 52700,
+        "60": 44600,
+        "72": 38900
+      },
+      "category": "전기레인지"
+    },
+    {
+      "model_id": "BEF3ABBLE.AKOR",
+      "product_name": "전기레인지",
+      "service_type": "라이트 플러스",
+      "visit_cycle": "12개월",
+      "prices": {
+        "36": 66500,
+        "48": 52700,
+        "60": 44600,
+        "72": 38900
       },
       "category": "전기레인지"
     },

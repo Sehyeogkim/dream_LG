@@ -1,4 +1,4 @@
-"""Type C parser: 냉장고, 광파오븐.
+"""Type C parser: 냉장고, 광파오븐, 식기세척기, 전기레인지.
 
 Structure:
   Row 8: sub-headers
@@ -23,6 +23,18 @@ PRICE_COLS_MAP = {
         '72': _col('BA'),
     },
     '광파오븐': {
+        '36': _col('L'),
+        '48': _col('AA'),
+        '60': _col('AP'),
+        '72': _col('BE'),
+    },
+    '식기세척기': {
+        '36': _col('L'),
+        '48': _col('AA'),
+        '60': _col('AP'),
+        '72': _col('BE'),
+    },
+    '전기레인지': {
         '36': _col('L'),
         '48': _col('AA'),
         '60': _col('AP'),

@@ -1,45 +1,28 @@
 {
   "category": "제습기",
   "sheet_name": "제습기",
-  "count": 3,
+  "count": 2,
   "products": [
     {
-      "model_id": "6",
-      "product_name": "DQ185MWGAWS.AKOR (35900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "35900",
-      "visit_cycle": "34100개월",
+      "model_id": "DQ235MWGAWS.AKOR",
+      "product_name": "제습기 (모하비 23리터)",
+      "visit_cycle": "12개월",
       "prices": {
-        "36": 136400,
-        "48": 151500,
-        "60": 164000,
-        "72": 173600
+        "36": 36900,
+        "48": 29300,
+        "60": 25500,
+        "72": 22700
       }
     },
     {
-      "model_id": "12",
-      "product_name": "DQ185MWGAWS.AKOR (33900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "33900",
-      "visit_cycle": "32200개월",
+      "model_id": "DQ185MWGAWS.AKOR",
+      "product_name": "제습기 (모하비 18리터)",
+      "visit_cycle": "12개월",
       "prices": {
-        "36": 128800,
-        "48": 141300,
-        "60": 151300,
-        "72": 158400
-      }
-    },
-    {
-      "model_id": "3",
-      "product_name": "DQ185MWGAWS.AKOR (40900)",
-      "category_sub": "제습기\n(모하비 18리터)",
-      "size": "40900",
-      "visit_cycle": "38800개월",
-      "prices": {
-        "36": 155200,
-        "48": 176500,
-        "60": 195300,
-        "72": 212000
+        "36": 32200,
+        "48": 26500,
+        "60": 22700,
+        "72": 19800
       }
     }
   ]

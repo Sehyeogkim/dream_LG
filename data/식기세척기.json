@@ -1,19 +1,54 @@
 {
   "category": "식기세척기",
   "sheet_name": "식기세척기",
-  "count": 1,
+  "count": 4,
   "products": [
     {
-      "model_id": "식기세척기",
-      "product_name": "",
-      "category_sub": "W826SVV482S.AKOR",
-      "size": "",
-      "visit_cycle": "방문없음",
+      "model_id": "DEE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
       "prices": {
-        "36": 6,
-        "48": 63400,
+        "36": 76300,
+        "48": 60300,
         "60": 50700,
-        "72": 189352
+        "72": 44200
+      }
+    },
+    {
+      "model_id": "DEE6EWE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
+      }
+    },
+    {
+      "model_id": "DFE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
+      }
+    },
+    {
+      "model_id": "DUE6BGE.AKOR",
+      "product_name": "식기세척기",
+      "service_type": "라이트",
+      "visit_cycle": "6개월",
+      "prices": {
+        "36": 76300,
+        "48": 60300,
+        "60": 50700,
+        "72": 44200
       }
     }
   ]
