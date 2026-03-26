@@ -1,18 +1,13 @@
 """Commercial AC parser: 상업용에어컨.
 
-Structure:
-  Row 3-5: headers
-  Row 6+: data
-  Cols: B=제품군, C=모델명, D=방문주기, E=서비스타입
-  Only 3yr contract
-  Price cols: G(2~3대)
+Only 3yr. B=제품군, C=모델명, D=방문주기, E=서비스타입
+Price cols: F(1대), G(2-3), I(4-9), K(10-29), M(30+)
 """
-from openpyxl.utils import column_index_from_string
+from openpyxl.utils import column_index_from_string as _col
 
-
-def _col(letter):
-    return column_index_from_string(letter)
-
+PRICE_COLS = {
+    '36': {'1': _col('F'), '2-3': _col('G'), '4-9': _col('I'), '10-29': _col('K'), '30+': _col('M')},
+}
 
 DATA_START = 6
 
@@ -23,11 +18,10 @@ def parse_type_commercial_ac(ws, sheet_name):
 
     for row_idx in range(DATA_START, ws.max_row + 1):
         b_val = ws.cell(row=row_idx, column=_col('B')).value
-        c_val = ws.cell(row=row_idx, column=_col('C')).value  # 모델명
-        d_val = ws.cell(row=row_idx, column=_col('D')).value  # 방문주기
-        e_val = ws.cell(row=row_idx, column=_col('E')).value  # 서비스타입
-        f_val = ws.cell(row=row_idx, column=_col('F')).value  # 기본 월요금
-        g_val = ws.cell(row=row_idx, column=_col('G')).value  # 2~3대 할인가
+        c_val = ws.cell(row=row_idx, column=_col('C')).value
+        d_val = ws.cell(row=row_idx, column=_col('D')).value
+        e_val = ws.cell(row=row_idx, column=_col('E')).value
+        f_val = ws.cell(row=row_idx, column=_col('F')).value
 
         if b_val:
             current_product_group = str(b_val).strip().replace('\n', ' ')
@@ -43,8 +37,14 @@ def parse_type_commercial_ac(ws, sheet_name):
         visit_cycle = str(d_val).strip() if d_val else ''
 
         prices = {}
-        if g_val is not None and isinstance(g_val, (int, float)):
-            prices['36'] = int(g_val)
+        for period, tier_cols in PRICE_COLS.items():
+            period_prices = {}
+            for tier, col_idx in tier_cols.items():
+                val = ws.cell(row=row_idx, column=col_idx).value
+                if val is not None and isinstance(val, (int, float)):
+                    period_prices[tier] = int(val)
+            if period_prices:
+                prices[period] = period_prices
 
         if not prices:
             continue
@@ -57,13 +57,4 @@ def parse_type_commercial_ac(ws, sheet_name):
             'prices': prices,
         })
 
-    return _deduplicate(products)
-
-
-def _deduplicate(products):
-    by_key = {}
-    for p in products:
-        key = (p['model_id'], p['service_type'])
-        if key not in by_key:
-            by_key[key] = p
-    return list(by_key.values())
+    return products

@@ -1,21 +1,19 @@
-"""제습기 parser - unique layout.
+"""제습기 parser.
 
-Headers at row 5: B=구분, C=모델명, D=방문주기
-Price cols (2~3대): F(3yr), W(4yr), AN(5yr), BE(6yr)
-Data starts row 6.
+Row 6+. B=구분, C=모델명, D=방문주기
+Price cols:
+  3yr: E(1), F(2-3), J(4-9), N(10-29), R(30+)
+  4yr: V(1), W(2-3), AA(4-9), AE(10-29), AI(30+)
+  5yr: AM(1), AN(2-3), AR(4-9), AV(10-29), AZ(30+)
+  6yr: BD(1), BE(2-3), BI(4-9), BM(10-29), BQ(30+)
 """
-from openpyxl.utils import column_index_from_string
-
-
-def _col(letter):
-    return column_index_from_string(letter)
-
+from openpyxl.utils import column_index_from_string as _col
 
 PRICE_COLS = {
-    '36': _col('F'),
-    '48': _col('W'),
-    '60': _col('AN'),
-    '72': _col('BE'),
+    '36': {'1': _col('E'), '2-3': _col('F'), '4-9': _col('J'), '10-29': _col('N'), '30+': _col('R')},
+    '48': {'1': _col('V'), '2-3': _col('W'), '4-9': _col('AA'), '10-29': _col('AE'), '30+': _col('AI')},
+    '60': {'1': _col('AM'), '2-3': _col('AN'), '4-9': _col('AR'), '10-29': _col('AV'), '30+': _col('AZ')},
+    '72': {'1': _col('BD'), '2-3': _col('BE'), '4-9': _col('BI'), '10-29': _col('BM'), '30+': _col('BQ')},
 }
 
 DATA_START = 6
@@ -29,8 +27,8 @@ def parse_type_dehumidifier(ws, sheet_name):
     for row_idx in range(DATA_START, ws.max_row + 1):
         b_val = ws.cell(row=row_idx, column=_col('B')).value
         c_val = ws.cell(row=row_idx, column=_col('C')).value
-        d_val = ws.cell(row=row_idx, column=_col('D')).value  # 방문주기
-        e_val = ws.cell(row=row_idx, column=_col('E')).value  # 기본 월요금
+        d_val = ws.cell(row=row_idx, column=_col('D')).value
+        e_val = ws.cell(row=row_idx, column=_col('E')).value
 
         if b_val:
             current_name = str(b_val).strip().replace('\n', ' ')
@@ -40,22 +38,24 @@ def parse_type_dehumidifier(ws, sheet_name):
         if e_val is None:
             continue
 
+        try:
+            vc = int(d_val) if d_val else 0
+            visit_cycle = f"{vc}개월" if vc > 0 else "방문없음"
+        except (ValueError, TypeError):
+            visit_cycle = str(d_val).strip() if d_val else ''
+
         prices = {}
-        for period, col_idx in PRICE_COLS.items():
-            val = ws.cell(row=row_idx, column=col_idx).value
-            if val is not None and isinstance(val, (int, float)):
-                prices[period] = int(val)
+        for period, tier_cols in PRICE_COLS.items():
+            period_prices = {}
+            for tier, col_idx in tier_cols.items():
+                val = ws.cell(row=row_idx, column=col_idx).value
+                if val is not None and isinstance(val, (int, float)):
+                    period_prices[tier] = int(val)
+            if period_prices:
+                prices[period] = period_prices
 
         if not prices:
             continue
-
-        visit_cycle = ''
-        if d_val is not None:
-            try:
-                vc = int(d_val)
-                visit_cycle = f"{vc}개월" if vc > 0 else "방문없음"
-            except (ValueError, TypeError):
-                visit_cycle = str(d_val).strip()
 
         products.append({
             'model_id': current_model,
@@ -64,15 +64,4 @@ def parse_type_dehumidifier(ws, sheet_name):
             'prices': prices,
         })
 
-    # Deduplicate by model_id, keep cheapest
-    by_model = {}
-    for p in products:
-        mid = p['model_id']
-        if mid not in by_model:
-            by_model[mid] = p
-        else:
-            existing = by_model[mid]['prices'].get('36', float('inf'))
-            new = p['prices'].get('36', float('inf'))
-            if new < existing:
-                by_model[mid] = p
-    return list(by_model.values())
+    return products

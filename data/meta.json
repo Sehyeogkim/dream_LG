@@ -1,24 +1,24 @@
 {
   "updated": "2026-03-26",
-  "total_count": 540,
+  "total_count": 763,
   "categories": [
     {
       "name": "공기청정기",
       "sheet_name": "공청기",
       "file": "공청기.json",
-      "count": 15
+      "count": 44
     },
     {
       "name": "공기청정가습기",
       "sheet_name": "공청가습기",
       "file": "공청가습기.json",
-      "count": 2
+      "count": 16
     },
     {
       "name": "제습기",
       "sheet_name": "제습기",
       "file": "제습기.json",
-      "count": 2
+      "count": 6
     },
     {
       "name": "TV",
@@ -48,13 +48,13 @@
       "name": "세탁기/건조기",
       "sheet_name": "세탁기,건조기",
       "file": "세탁기,건조기.json",
-      "count": 113
+      "count": 202
     },
     {
       "name": "냉장고",
       "sheet_name": "냉장고",
       "file": "냉장고.json",
-      "count": 262
+      "count": 313
     },
     {
       "name": "상업용에어컨",
@@ -66,19 +66,19 @@
       "name": "식기세척기",
       "sheet_name": "식기세척기",
       "file": "식기세척기.json",
-      "count": 4
+      "count": 8
     },
     {
       "name": "전기레인지",
       "sheet_name": "전기레인지",
       "file": "전기레인지.json",
-      "count": 19
+      "count": 47
     },
     {
       "name": "광파오븐",
       "sheet_name": "광파오븐",
       "file": "광파오븐.json",
-      "count": 4
+      "count": 8
     }
   ]
 }

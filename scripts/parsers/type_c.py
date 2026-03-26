@@ -1,46 +1,29 @@
 """Type C parser: 냉장고, 광파오븐, 식기세척기, 전기레인지.
 
-Structure:
-  Row 8: sub-headers
-  Row 9+: data (one row per model+service_type combo)
-  Cols: D=구분1, E=구분2, F=모델명, G=서비스타입, H=방문주기
+Row 9+: data. Cols: D=구분1, E=구분2, F=모델명, G=서비스타입, H=방문주기
 
-냉장고 price cols (2~3대): K(3yr), Y(4yr), AM(5yr), BA(6yr)
-광파오븐 price cols (2~3대): L(3yr), AA(4yr), AP(5yr), BE(6yr)
+Price columns per (period, qty_tier):
+냉장고:   3yr: I(1대),K(2-3),N(4-9),Q(10-29),T(30+) | 4yr: W,Y,AB,AE,AH | 5yr: AK,AM,AP,AS,AV | 6yr: AY,BA,BD,BG,BJ
+광파오븐/식기세척기/전기레인지: 3yr: J(1대),L(2-3),O(4-9),R(10-29),U(30+) | 4yr: Y,AA,AD,AG,AJ | 5yr: AN,AP,AS,AV,AY | 6yr: BC,BE,BH,BK,BN
 """
-from openpyxl.utils import column_index_from_string
-
-
-def _col(letter):
-    return column_index_from_string(letter)
-
+from openpyxl.utils import column_index_from_string as _col
 
 PRICE_COLS_MAP = {
     '냉장고': {
-        '36': _col('K'),
-        '48': _col('Y'),
-        '60': _col('AM'),
-        '72': _col('BA'),
+        '36': {'1': _col('I'), '2-3': _col('K'), '4-9': _col('N'), '10-29': _col('Q'), '30+': _col('T')},
+        '48': {'1': _col('W'), '2-3': _col('Y'), '4-9': _col('AB'), '10-29': _col('AE'), '30+': _col('AH')},
+        '60': {'1': _col('AK'), '2-3': _col('AM'), '4-9': _col('AP'), '10-29': _col('AS'), '30+': _col('AV')},
+        '72': {'1': _col('AY'), '2-3': _col('BA'), '4-9': _col('BD'), '10-29': _col('BG'), '30+': _col('BJ')},
     },
     '광파오븐': {
-        '36': _col('L'),
-        '48': _col('AA'),
-        '60': _col('AP'),
-        '72': _col('BE'),
-    },
-    '식기세척기': {
-        '36': _col('L'),
-        '48': _col('AA'),
-        '60': _col('AP'),
-        '72': _col('BE'),
-    },
-    '전기레인지': {
-        '36': _col('L'),
-        '48': _col('AA'),
-        '60': _col('AP'),
-        '72': _col('BE'),
+        '36': {'1': _col('J'), '2-3': _col('L'), '4-9': _col('O'), '10-29': _col('R'), '30+': _col('U')},
+        '48': {'1': _col('Y'), '2-3': _col('AA'), '4-9': _col('AD'), '10-29': _col('AG'), '30+': _col('AJ')},
+        '60': {'1': _col('AN'), '2-3': _col('AP'), '4-9': _col('AS'), '10-29': _col('AV'), '30+': _col('AY')},
+        '72': {'1': _col('BC'), '2-3': _col('BE'), '4-9': _col('BH'), '10-29': _col('BK'), '30+': _col('BN')},
     },
 }
+PRICE_COLS_MAP['식기세척기'] = PRICE_COLS_MAP['광파오븐']
+PRICE_COLS_MAP['전기레인지'] = PRICE_COLS_MAP['광파오븐']
 
 DATA_START = 9
 
@@ -54,9 +37,9 @@ def parse_type_c(ws, sheet_name):
     for row_idx in range(DATA_START, ws.max_row + 1):
         d_val = ws.cell(row=row_idx, column=_col('D')).value
         e_val = ws.cell(row=row_idx, column=_col('E')).value
-        f_val = ws.cell(row=row_idx, column=_col('F')).value  # 모델명
-        g_val = ws.cell(row=row_idx, column=_col('G')).value  # 서비스타입
-        h_val = ws.cell(row=row_idx, column=_col('H')).value  # 방문주기
+        f_val = ws.cell(row=row_idx, column=_col('F')).value
+        g_val = ws.cell(row=row_idx, column=_col('G')).value
+        h_val = ws.cell(row=row_idx, column=_col('H')).value
 
         if d_val:
             current_cat1 = str(d_val).strip().replace('\n', ' ')
@@ -77,10 +60,14 @@ def parse_type_c(ws, sheet_name):
                 visit_cycle = str(h_val).strip()
 
         prices = {}
-        for period, col_idx in price_cols.items():
-            val = ws.cell(row=row_idx, column=col_idx).value
-            if val is not None and isinstance(val, (int, float)):
-                prices[period] = int(val)
+        for period, tier_cols in price_cols.items():
+            period_prices = {}
+            for tier, col_idx in tier_cols.items():
+                val = ws.cell(row=row_idx, column=col_idx).value
+                if val is not None and isinstance(val, (int, float)):
+                    period_prices[tier] = int(val)
+            if period_prices:
+                prices[period] = period_prices
 
         if not prices:
             continue
@@ -95,14 +82,4 @@ def parse_type_c(ws, sheet_name):
             'prices': prices,
         })
 
-    return _deduplicate(products)
-
-
-def _deduplicate(products):
-    """Group by model_id, keep first occurrence (usually 라이트 or 프리미엄)."""
-    by_model = {}
-    for p in products:
-        mid = p['model_id']
-        if mid not in by_model:
-            by_model[mid] = p
-    return list(by_model.values())
+    return products

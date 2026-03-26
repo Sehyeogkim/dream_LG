@@ -1,26 +1,27 @@
-"""Type A parser: 공청기, 공청가습기, 제습기, 식기세척기, 전기레인지.
+"""Type A parser: 공청기, 공청가습기.
 
 Structure:
   Row 6: headers (B=구분, C=구분, D=모델명, E=평수/용량, F=방문주기)
-  Row 7+: data (merged cells for B, C, E across visit-cycle rows)
-  Price columns (2~3대 할인가): H(3yr), Y(4yr), AP(5yr), BG(6yr)
+  Row 7+: data
+
+Price columns per (period, quantity_tier):
+  3yr: G(1대), H(2-3대), L(4-9대), P(10-29대), T(30대+)
+  4yr: X(1대), Y(2-3대), AC(4-9대), AG(10-29대), AK(30대+)
+  5yr: AO(1대), AP(2-3대), AT(4-9대), AX(10-29대), BB(30대+)
+  6yr: BF(1대), BG(2-3대), BK(4-9대), BO(10-29대), BS(30대+)
 """
-from openpyxl.utils import column_index_from_string
+from openpyxl.utils import column_index_from_string as _col
 
+QUANTITY_TIERS = ['1', '2-3', '4-9', '10-29', '30+']
 
-def _col(letter):
-    return column_index_from_string(letter)
-
-
-# Price columns for "2~3대" tier per contract year
+# { period: { qty_tier: col_index } }
 PRICE_COLS = {
-    '36': _col('H'),   # 3년
-    '48': _col('Y'),   # 4년
-    '60': _col('AP'),  # 5년
-    '72': _col('BG'),  # 6년
+    '36': {'1': _col('G'), '2-3': _col('H'), '4-9': _col('L'), '10-29': _col('P'), '30+': _col('T')},
+    '48': {'1': _col('X'), '2-3': _col('Y'), '4-9': _col('AC'), '10-29': _col('AG'), '30+': _col('AK')},
+    '60': {'1': _col('AO'), '2-3': _col('AP'), '4-9': _col('AT'), '10-29': _col('AX'), '30+': _col('BB')},
+    '72': {'1': _col('BF'), '2-3': _col('BG'), '4-9': _col('BK'), '10-29': _col('BO'), '30+': _col('BS')},
 }
 
-HEADER_ROW = 6
 DATA_START = 7
 
 
@@ -37,7 +38,7 @@ def parse_type_a(ws, sheet_name):
         d_val = ws.cell(row=row_idx, column=_col('D')).value
         e_val = ws.cell(row=row_idx, column=_col('E')).value
         f_val = ws.cell(row=row_idx, column=_col('F')).value
-        g_val = ws.cell(row=row_idx, column=_col('G')).value  # 기본 월요금
+        g_val = ws.cell(row=row_idx, column=_col('G')).value
 
         if b_val:
             current_category = str(b_val).strip()
@@ -48,22 +49,25 @@ def parse_type_a(ws, sheet_name):
         if e_val:
             current_size = str(e_val).strip()
 
-        # Skip rows without price data
         if g_val is None:
             continue
 
-        visit_cycle = f_val
-        if visit_cycle is not None:
-            try:
-                visit_cycle = int(visit_cycle) if visit_cycle != 0 else 0
-            except (ValueError, TypeError):
-                visit_cycle = 0  # Non-numeric visit cycle info
+        try:
+            visit_cycle = int(f_val) if f_val and f_val != 0 else 0
+        except (ValueError, TypeError):
+            visit_cycle = 0
+        visit_str = f"{visit_cycle}개월" if visit_cycle > 0 else "방문없음"
 
+        # Extract ALL price tiers
         prices = {}
-        for period, col_idx in PRICE_COLS.items():
-            val = ws.cell(row=row_idx, column=col_idx).value
-            if val is not None and isinstance(val, (int, float)):
-                prices[period] = int(val)
+        for period, tier_cols in PRICE_COLS.items():
+            period_prices = {}
+            for tier, col_idx in tier_cols.items():
+                val = ws.cell(row=row_idx, column=col_idx).value
+                if val is not None and isinstance(val, (int, float)):
+                    period_prices[tier] = int(val)
+            if period_prices:
+                prices[period] = period_prices
 
         if not prices:
             continue
@@ -71,8 +75,6 @@ def parse_type_a(ws, sheet_name):
         product_name = current_name
         if current_size:
             product_name = f"{current_name} ({current_size})"
-
-        visit_str = f"{visit_cycle}개월" if visit_cycle and visit_cycle > 0 else "방문없음"
 
         products.append({
             'model_id': current_model,
@@ -83,20 +85,4 @@ def parse_type_a(ws, sheet_name):
             'prices': prices,
         })
 
-    # Deduplicate: group by model_id, keep cheapest visit_cycle price for each period
-    return _deduplicate(products)
-
-
-def _deduplicate(products):
-    """Group by model_id, pick the row with the lowest 3yr price (most affordable visit option)."""
-    by_model = {}
-    for p in products:
-        mid = p['model_id']
-        if mid not in by_model:
-            by_model[mid] = p
-        else:
-            existing_36 = by_model[mid]['prices'].get('36', float('inf'))
-            new_36 = p['prices'].get('36', float('inf'))
-            if new_36 < existing_36:
-                by_model[mid] = p
-    return list(by_model.values())
+    return products

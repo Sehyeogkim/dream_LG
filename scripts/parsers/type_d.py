@@ -1,100 +1,92 @@
 """Type D parser: TV.
 
-Structure:
-  Rows 3-4: headers
-  Row 5+: data in groups of 5 rows (one per quantity tier)
-  Group structure:
-    Row 1: B=구분, E=설치유형, F=1대, G=5yr price, J=6yr price
-    Row 2: F=2~3대, G=5yr price, J=6yr price
-    Row 3: C=본체모델명, D=주문모델명, F=4~9대, ...
-    Row 4: F=10~29대, ...
-    Row 5: F=30대이상, ...
-  We extract the "2~3대" tier and grab model from the adjacent row.
+Only 5yr and 6yr. 5 rows per product (qty tiers).
+We extract ALL quantity tiers now.
+Row structure per product group: 1대, 2~3대, 4~9대, 10~29대, 30대이상
 """
-from openpyxl.utils import column_index_from_string
-
-
-def _col(letter):
-    return column_index_from_string(letter)
-
+from openpyxl.utils import column_index_from_string as _col
 
 DATA_START = 5
+QTY_MAP = {
+    '1대': '1', '기본': '1',
+    '2~3대': '2-3', '2~3': '2-3',
+    '4~9대': '4-9', '4~9': '4-9',
+    '10~29대': '10-29', '10~29': '10-29', '10대~29대': '10-29',
+    '30대': '30+', '30대 이상': '30+',
+}
+
+
+def _match_qty(f_str):
+    for key, val in QTY_MAP.items():
+        if key in f_str:
+            return val
+    return None
 
 
 def parse_type_d(ws, sheet_name):
-    products = []
-
-    # First pass: collect all data rows with their values
+    # Collect raw data
     rows_data = []
     for row_idx in range(DATA_START, ws.max_row + 1):
-        row = {
+        rows_data.append({
             'idx': row_idx,
             'B': ws.cell(row=row_idx, column=_col('B')).value,
             'C': ws.cell(row=row_idx, column=_col('C')).value,
             'D': ws.cell(row=row_idx, column=_col('D')).value,
             'E': ws.cell(row=row_idx, column=_col('E')).value,
             'F': ws.cell(row=row_idx, column=_col('F')).value,
-            'G': ws.cell(row=row_idx, column=_col('G')).value,
-            'J': ws.cell(row=row_idx, column=_col('J')).value,
-            'M': ws.cell(row=row_idx, column=_col('M')).value,
-        }
-        rows_data.append(row)
+            'G': ws.cell(row=row_idx, column=_col('G')).value,  # 5yr
+            'J': ws.cell(row=row_idx, column=_col('J')).value,  # 6yr
+        })
 
-    # Process in groups: detect groups by B column (product name) appearance
+    # Group into products. Each product has 5 rows.
+    products = []
     current_category = ''
     current_install = ''
-    i = 0
-    while i < len(rows_data):
-        row = rows_data[i]
+    current_model = ''
 
+    # Track product groups: accumulate qty tier prices
+    current_prices = {'60': {}, '72': {}}
+
+    for row in rows_data:
         if row['B']:
+            # New product group starts
+            if current_category and any(current_prices['60'].values()):
+                products.append({
+                    'model_id': current_model,
+                    'product_name': current_category,
+                    'install_type': current_install,
+                    'prices': {k: dict(v) for k, v in current_prices.items() if v},
+                })
             current_category = str(row['B']).strip().replace('\n', ' ')
+            current_prices = {'60': {}, '72': {}}
+
+        if row['C']:
+            current_model = str(row['C']).strip().split('\n')[0]
+        if row['D'] and not current_model:
+            current_model = str(row['D']).strip().split('\n')[0]
         if row['E']:
             current_install = str(row['E']).strip().replace('\n', '/')
 
-        f_str = str(row['F']).strip() if row['F'] else ''
+        if row['F'] is None:
+            continue
 
-        if '2~3대' in f_str or '2~3' in f_str:
-            # This is our target row - get prices
-            prices = {}
-            if row['G'] is not None and isinstance(row['G'], (int, float)):
-                prices['60'] = int(row['G'])
-            if row['J'] is not None and isinstance(row['J'], (int, float)):
-                prices['72'] = int(row['J'])
+        f_str = str(row['F']).strip()
+        qty = _match_qty(f_str)
+        if not qty:
+            continue
 
-            # Look for model_id in nearby rows (next 1-2 rows typically)
-            model_id = ''
-            for offset in range(1, 3):
-                if i + offset < len(rows_data):
-                    c_val = rows_data[i + offset]['C']
-                    d_val = rows_data[i + offset]['D']
-                    if c_val:
-                        model_id = str(c_val).strip().split('\n')[0]
-                        break
-                    if d_val:
-                        model_id = str(d_val).strip().split('\n')[0]
-                        break
-            # Also check previous rows
-            if not model_id:
-                for offset in range(1, 3):
-                    if i - offset >= 0:
-                        c_val = rows_data[i - offset]['C']
-                        d_val = rows_data[i - offset]['D']
-                        if c_val:
-                            model_id = str(c_val).strip().split('\n')[0]
-                            break
-                        if d_val:
-                            model_id = str(d_val).strip().split('\n')[0]
-                            break
+        if row['G'] is not None and isinstance(row['G'], (int, float)):
+            current_prices['60'][qty] = int(row['G'])
+        if row['J'] is not None and isinstance(row['J'], (int, float)):
+            current_prices['72'][qty] = int(row['J'])
 
-            if prices:
-                products.append({
-                    'model_id': model_id,
-                    'product_name': current_category,
-                    'install_type': current_install,
-                    'prices': prices,
-                })
-
-        i += 1
+    # Don't forget last product
+    if current_category and any(current_prices['60'].values()):
+        products.append({
+            'model_id': current_model,
+            'product_name': current_category,
+            'install_type': current_install,
+            'prices': {k: dict(v) for k, v in current_prices.items() if v},
+        })
 
     return products

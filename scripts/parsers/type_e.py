@@ -1,22 +1,19 @@
 """Type E parser: 벽걸이에어컨.
 
-Structure:
-  Row 6: headers (B=구분, C=구분, D=모델명, E=서비스타입/방문주기)
-  Row 7+: data
-  Price cols (2~3대): K(3yr), AF(4yr), BA(5yr), BV(6yr)
+Row 7+: data. Cols: B=구분, C=구분, D=모델명, E=서비스타입
+Price cols (period, qty):
+  3yr: F(1), K(2-3), O(4-9), S(10-29), W(30+)
+  4yr: AA(1), AF(2-3), AJ(4-9), AN(10-29), AR(30+)
+  5yr: AV(1), BA(2-3), BE(4-9), BI(10-29), BM(30+)
+  6yr: BQ(1), BV(2-3), BZ(4-9), CD(10-29), CH(30+)
 """
-from openpyxl.utils import column_index_from_string
-
-
-def _col(letter):
-    return column_index_from_string(letter)
-
+from openpyxl.utils import column_index_from_string as _col
 
 PRICE_COLS = {
-    '36': _col('K'),
-    '48': _col('AF'),
-    '60': _col('BA'),
-    '72': _col('BV'),
+    '36': {'1': _col('F'), '2-3': _col('K'), '4-9': _col('O'), '10-29': _col('S'), '30+': _col('W')},
+    '48': {'1': _col('AA'), '2-3': _col('AF'), '4-9': _col('AJ'), '10-29': _col('AN'), '30+': _col('AR')},
+    '60': {'1': _col('AV'), '2-3': _col('BA'), '4-9': _col('BE'), '10-29': _col('BI'), '30+': _col('BM')},
+    '72': {'1': _col('BQ'), '2-3': _col('BV'), '4-9': _col('BZ'), '10-29': _col('CD'), '30+': _col('CH')},
 }
 
 DATA_START = 7
@@ -32,8 +29,8 @@ def parse_type_e(ws, sheet_name):
         b_val = ws.cell(row=row_idx, column=_col('B')).value
         c_val = ws.cell(row=row_idx, column=_col('C')).value
         d_val = ws.cell(row=row_idx, column=_col('D')).value
-        e_val = ws.cell(row=row_idx, column=_col('E')).value  # 서비스타입
-        f_val = ws.cell(row=row_idx, column=_col('F')).value  # 기본 월요금
+        e_val = ws.cell(row=row_idx, column=_col('E')).value
+        f_val = ws.cell(row=row_idx, column=_col('F')).value
 
         if b_val:
             current_category = str(b_val).strip()
@@ -48,10 +45,14 @@ def parse_type_e(ws, sheet_name):
         service_type = str(e_val).strip() if e_val else ''
 
         prices = {}
-        for period, col_idx in PRICE_COLS.items():
-            val = ws.cell(row=row_idx, column=col_idx).value
-            if val is not None and isinstance(val, (int, float)):
-                prices[period] = int(val)
+        for period, tier_cols in PRICE_COLS.items():
+            period_prices = {}
+            for tier, col_idx in tier_cols.items():
+                val = ws.cell(row=row_idx, column=col_idx).value
+                if val is not None and isinstance(val, (int, float)):
+                    period_prices[tier] = int(val)
+            if period_prices:
+                prices[period] = period_prices
 
         if not prices:
             continue
@@ -63,13 +64,4 @@ def parse_type_e(ws, sheet_name):
             'prices': prices,
         })
 
-    return _deduplicate(products)
-
-
-def _deduplicate(products):
-    by_key = {}
-    for p in products:
-        key = (p['model_id'], p['service_type'])
-        if key not in by_key:
-            by_key[key] = p
-    return list(by_key.values())
+    return products
